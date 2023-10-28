@@ -9,6 +9,32 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
+  
+}
+
+:root{
   max-width: 1400px;
   margin: auto;
+}
+
+
+.drowpdown  {
+  background-color: #FFFFFF;
+  color: black;
+  padding-left: 15px;
+}
+
+.drowpdown a{
+  margin-top: 10px;
+ 
+}
+
+
+.right-manu:hover .drowpdown{
+  display: block;
+  
+}
+
+.manu-btn:hover .manu-btn {
+  background-color: transparent;
 }
