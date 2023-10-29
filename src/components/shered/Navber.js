@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import Dropdown from '../ui/Dropdown'
-import logo from "../../image/builder.png"
-
+import Image from 'next/image'
 
 const Navber = () => {
 
@@ -12,7 +10,12 @@ const Navber = () => {
     <div className='border border-red-500 bg-[#FFFFFF] shadow-xl flex  justify-between items-center py-4'>
          <div>
           
-          <img src={logo} alt="" />
+         <Image
+      src="https://www.ryanscomputers.com/assets/images/ryans-logo.svg"
+      width={100}
+      height={500}
+      alt="Picture of the author"
+    />
           
          </div>
 
@@ -21,11 +24,11 @@ const Navber = () => {
               <div className='right-manu  relative mx-6'>
           
           <button type="button" className='manu-btn'>catagory</button>
-          <div className='drowpdown py-4 border-t-4 border-green-400 shadow-xl absolute hidden min-w-[109px] z-[1px]'>
-            <a href="" className='block'>Home</a>
-            <a href="" className='block'>Home</a>
-            <a href="" className='block'>Home</a>
-            <a href="" className='block'>Home</a>
+          <div className='drowpdown py-4 border-t-4 border-green-400 shadow-xl absolute hidden min-w-[179px] z-[1px]'>
+            <a href="" className='block'>CPU / Processor</a>
+            <a href="" className='block'>Motherboard</a>
+            <a href="" className='block'>RAM</a>
+            <a href="" className='block'>Power Supply Unit</a>
             
           </div>
             

@@ -1,0 +1,56 @@
+[
+    {
+      "image": "https://www.startech.com.bd/image/cache/catalog/headphone/hoco/w106/w106-01-228x228.webp",
+      "productName": "Hoco W106 Tiger Gaming Headphone",
+      "category": "Gamming",
+      "price": "3,400৳",
+      "Status": "In Stock",
+      "Rating": "5,00",
+      "discription": "The Hoco W106 Tiger Gaming Headphone showcases a compact and ergonomic design constructed from quality materials, ensuring comfort during extended usage. The Hoco W106 has a 50mm speaker, a microphone size of Φ6.0×2.7mm. With its excellent playback quality, it delivers an immersive music experience. The Hoco W106 Tiger Gaming Headphone utilize a 3.5mm jack for connectivity and feature an omnidirectional microphone for clear voice communication."
+    },
+    {
+      "image": "https://www.ryanscomputers.com/storage/products/main/apple-watch-series-8-45mm-gps-starlight-11697185119.webp",
+      "productName": "Apple Watch Series 8 45mm (GPS) Starlight Aluminum",
+      "category": "Gadget",
+      "price": "6,428৳",
+      "Status": "Out of stock",
+      "Rating": "5,00",
+      "discription": "Brand - Apple, Model - Apple Watch Series 8, Watch Size - 45mm, Cellular Network - No, SIM Card Slot - No, SIM Card Type - No, Dial Shape - Square, Dial Type - Digital, Processor /CPU - Dual-core, Display Size - 1.77 Inch, Display Type - Retina Display, Display Resolution - 484 x 396, Display Protection - Ion-X strengthened glass, Display Area - 1143 sq mm, Ram & Memory - 1GB, Storage - 32GB, Camera - No, Calling Feature - No, Loudspeaker"
+    },
+    {
+      "image": "https://www.startech.com.bd/image/cache/catalog/router/xiaomi/mi-4c/mi-4c-1-500x500.jpg",
+      "productName": "Xiaomi MI 4C R4CM 300 Mbps 4 Antenna Router (Global Version)",
+      "category": "Networking",
+      "price": "1,140৳",
+      "Status": "In Stock",
+      "Rating": "4.5,00",
+      "discription": "Xiaomi MI 4c Router Transmission Rate 300Mbps With included 4 high gain antennas for strong signal, Support for single-band (2.4GHz) Wi-Fi 802.11 b/g/n along with 3x3 MIMO technology. Intelligent speed limit function for faster performance and network watching function for ensuring network security.Smart management function for remote control. It has also Qualcomm QC8561 processor. It also had 64MB of DDR2 RAM and 16MB of NorFlash storage. It Comes with 2 Month Warranty (Must Claim With Box & All Accessories)."
+    },
+    {
+      "image": "https://www.startech.com.bd/image/cache/catalog/transceiver/ficer/fsfp-c7-s13-20d/fsfp-c7-s13-20d-02-500x500.webp",
+      "productName": "Ficer FSFP-C7-S13-20D LC Duplex SFP Transceiver",
+      "category": "Networking",
+      "price": "2,200৳",
+      "Status": "In Stock",
+      "Rating": "5,00",
+      "discription": "The Ficer FSFP-C7-S13-20D is a small form-factor pluggable (SFP) transceiver capable of high-speed data transmission over single-mode fiber optic cables. It complies with a number of standards, including IEEE802.3z Gigabit Ethernet, Fiber Channel 100-SM-LC-L, and INF-8074i SFP MSA. It includes a hot-pluggable capability that allows it to be inserted or withdrawn without disrupting the network."
+    },
+    {
+      "image": "https://www.startech.com.bd/image/cache/catalog/mouse/astrum/mw230/mw230-03-500x500.webp",
+      "productName": "Astrum MW230 2.4ghz Wireless Rechargeable Mouse",
+      "category": "Gadget",
+      "price": "1,250৳",
+      "Status": "Out of stock",
+      "Rating": "4.5,00",
+      "discription": "The Astrum MW230 is a cutting-edge rechargeable wireless mouse that offers a plethora of features to enhance your computer experience. Let's investigate further into the reasons why the Astrum MW230 is a cutting-edge computer accessory. The wireless functionality of the Astrum MW230 is one of its best qualities. Up to a significant distance from your computer, 2.4GHz wireless technology guarantees a steady and dependable connection. Eliminate concerns of entangled cables and limited mobility. With simplicity and freedom, you can move around your screen. Excellent cursor accuracy and responsiveness are demonstrated by the 1600dpi sensitivity. "
+    },
+    {
+      "image": "https://www.startech.com.bd/image/cache/catalog/cable/xiaomi/type-a-to-type-c/type-a-to-type-c-1-500x500.jpg",
+      "productName": "Xiaomi Mi USB Type A to Type C Data & Charging 100cm Cable",
+      "category": "Gadget",
+      "price": "1,000৳",
+      "Status": "In Stock",
+      "Rating": "5,00",
+      "discription": "Xiaomi Mi USB Type A to Type C Data & Charging Cable featured with Tinned copper cover layer to resist the oxidation,make it durable for use. And also it's outermost layer is environmental TPU cover, green and healthy. This cable is also comes with Aluminum alloy connector shell and TPU outermost layer and USB 2.0,USB Type-C Interface. This Simple and portable cable is 100% Original. The Xiaomi Mi USB Type A to Type C Cable has no warranty."
+    }
+  ]
