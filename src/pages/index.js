@@ -7,7 +7,7 @@ import Randomproducts from "@/components/ui/randomproducts/Randomproducts";
 const HomePage = ({prodcuts}) => {
   
   return (
-    <div>
+    <div className="">
        <h1 className="text-red-400 text-4xl">home page root: </h1>
        <Randomproducts prodcuts={prodcuts} ></Randomproducts>
     </div>

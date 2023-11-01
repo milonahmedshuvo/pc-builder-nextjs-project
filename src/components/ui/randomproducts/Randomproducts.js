@@ -1,11 +1,14 @@
+import Randomproduct from "./Randomproduct";
 
 
 const Randomproducts = ({prodcuts}) => {
   console.log(prodcuts)
 
   return (
-    <div>
-      <h1>random products </h1>
+    <div className="grid grid-cols-3 gap-20 ">
+       {
+        prodcuts.map((product, i) => <Randomproduct key={product._id} product={product} ></Randomproduct> )
+       }
     </div>
   )
 }
