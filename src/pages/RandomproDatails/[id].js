@@ -19,8 +19,8 @@ const RandomProductDatails = ({ product }) => {
 
   // fetch(`http://localhost:5000/product/${id}`)
   return (
-    <div>
-      <h1 className="mt-3"> Category: {category} </h1>
+    <div className="mx-2 md:mx-0">
+      <h1 className="mt-5"> Category: {category} </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-14">
         <div className=" ">
@@ -29,9 +29,9 @@ const RandomProductDatails = ({ product }) => {
 
         {/* prodcuts datails  */}
         <div className=" ">
-          <h2 className="text-[24px] text-[#3757CD]">{productName}</h2>
+          <h2 className=" text-[20px] md:text-[24px] text-[#3757CD]">{productName}</h2>
 
-          <div className="grid grid-cols-4  mt-3">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4  mt-3">
             <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2">
               Price:<span className="text-black font-semibold"> {price} </span>{" "}
             </p>
@@ -40,12 +40,12 @@ const RandomProductDatails = ({ product }) => {
               Code:<span className="text-black font-semibold"> {4076} </span>{" "}
             </p>
 
-            <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2">
+            <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2 mt-2 lg:mt-0">
               Rating:
               <span className="text-black font-semibold"> {Rating} </span>{" "}
             </p>
 
-            <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2">
+            <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2 mt-2 lg:mt-0">
               Status:
               <span className="text-black font-semibold"> {Status} </span>{" "}
             </p>
