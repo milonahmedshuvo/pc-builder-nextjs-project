@@ -1,55 +1,99 @@
+import RootLayout from "@/components/layout/RootLayout";
 import { useRouter } from "next/router";
 
+const RandomProductDatails = ({ product }) => {
+  const router = useRouter();
+  const id = router.query.id;
+  console.log("product:", product);
 
+  const {
+    image,
+    productName,
+    category,
+    price,
+    Status,
+    Rating,
+    discription,
+    _id,
+  } = product;
 
-
-
-const RandomProductDatails = ({product}) => {
-    const router = useRouter()
-    const id = router.query.id
-    console.log("product:", product)
-
-
-
-    // fetch(`http://localhost:5000/product/${id}`)
-
-    
-    
+  // fetch(`http://localhost:5000/product/${id}`)
   return (
     <div>
-      <h1> Datails prodcut {id}  </h1>
-    </div>
-  )
-}
+      <h1 className="mt-3"> Category: {category} </h1>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-14">
+        <div className=" ">
+          <img src={image} alt="" className="w-2/3 mx-auto " />
+        </div>
+
+        {/* prodcuts datails  */}
+        <div className=" ">
+          <h2 className="text-[24px] text-[#3757CD]">{productName}</h2>
+
+          <div className="grid grid-cols-4  mt-3">
+            <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2">
+              Price:<span className="text-black font-semibold"> {price} </span>{" "}
+            </p>
+
+            <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2">
+              Code:<span className="text-black font-semibold"> {4076} </span>{" "}
+            </p>
+
+            <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2">
+              Rating:
+              <span className="text-black font-semibold"> {Rating} </span>{" "}
+            </p>
+
+            <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2">
+              Status:
+              <span className="text-black font-semibold"> {Status} </span>{" "}
+            </p>
+          </div>
+
+          <div className=" mt-10">
+            <p className="text-lg font-normal ">Driscription</p>
+            <p className="mt-4 leading-6 text-[#666]">{discription}</p>
+          </div>
+
+          <button
+            type="button"
+            className="text-white text-center bg-[#2C3A96] px-6 py-1 font-semibold  text-md mt-10"
+          >
+            Buy Now
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default RandomProductDatails;
 
+RandomProductDatails.getLayout = function getLayout(page) {
+  return <RootLayout> {page} </RootLayout>;
+};
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/products")
-  const products = await res.json()
-  
+  const res = await fetch("http://localhost:5000/products");
+  const products = await res.json();
+
   const paths = products.map((product) => ({
-    params: { id : product._id }
-  }))
+    params: { id: product._id },
+  }));
 
-  return { paths, fallback: false }
-
-}
+  return { paths, fallback: false };
+};
 
 export const getStaticProps = async (context) => {
-  const {params} = context;
-  
-  const res = await fetch(`http://localhost:5000/product/${params.id}`)
-  const data = await res.json()
+  const { params } = context;
+
+  const res = await fetch(`http://localhost:5000/product/${params.id}`);
+  const data = await res.json();
 
   return {
-    props:{
-      product: data
-    }
-  }
-}
-
-
-
+    props: {
+      product: data,
+    },
+  };
+};
