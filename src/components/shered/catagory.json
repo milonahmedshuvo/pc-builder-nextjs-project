@@ -1,0 +1,311 @@
+[
+    {
+      
+      "images": "https://www.ryanscomputers.com/assets/images/category-icon/svg/Processor.svg",
+      "name": " Processor",
+      "prodcuts": [
+        {
+          "id": "1",
+          "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/core-i5-14600k/core-i5-14600k-01-500x500.webp",
+          "productName": "Intel Core i5 14600K 14th Gen Raptor Lake Processor",
+          "category": "Processor",
+          "price": "38,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The Intel Core i5 14600K 14th Gen Processor will boost your productivity, gaming, and content production. This 14th-generation desktop CPU, built on the Intel 7 technology, provides increased power efficiency while fitting the LGA 1700 socket. The Core i5-14600K has an improved Hybrid Core Architecture that powers programs and games with six 3.5 GHz performance cores and eight low-voltage Efficient-cores for seamless multitasking. The built-in Intel Thread Director guarantees that the two function in unison by dynamically and intelligently distributing tasks to the appropriate core at the appropriate moment. With 24MB of cache and a Turbo Boost clock of 5.3 GHz, this CPU is designed to handle a wide range of applications. This CPU may be overclocked for increased performance. PCI Express 5.0 and up to 192GB of dual-channel DDR5 ECC memory @ 5600 MHz are also supported by the Core i5-14600K.",
+          "subDiscription": "The Intel Core i5 14600K 14th Gen Processor performance cores give the speed to handle high-end games and demanding programs, while the processor's Efficient-cores manage low-priority and background operations such as streaming video, playing music, and transcoding media.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: Core i5 14600K","Clock Speed: 3.5 GHz up to 5.3 GHz", "Cache: 24 MB, Socket: LGA1700", "CPU Cores: 14, CPU Threads: 20", "Graphics: Intel UHD Graphics 770"]
+        },
+        {
+            "id": "2",
+            "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/core-i5-14600k/core-i5-14600k-01-500x500.webp",
+            "productName": "Intel Core i5 14600KF 14th Gen Raptor Lake Processor",
+            "category": "Processor",
+            "price": "38,500৳",
+            "Regular": "42,500৳",
+            "Status": "In Stock",
+            "Rating": 5,
+            "discription": "The Intel Core i5 14600K 14th Gen Processor will boost your productivity, gaming, and content production. This 14th-generation desktop CPU, built on the Intel 7 technology, provides increased power efficiency while fitting the LGA 1700 socket. The Core i5-14600K has an improved Hybrid Core Architecture that powers programs and games with six 3.5 GHz performance cores and eight low-voltage Efficient-cores for seamless multitasking. The built-in Intel Thread Director guarantees that the two function in unison by dynamically and intelligently distributing tasks to the appropriate core at the appropriate moment. With 24MB of cache and a Turbo Boost clock of 5.3 GHz, this CPU is designed to handle a wide range of applications. This CPU may be overclocked for increased performance. PCI Express 5.0 and up to 192GB of dual-channel DDR5 ECC memory @ 5600 MHz are also supported by the Core i5-14600K.",
+            "subDiscription": "The Intel Core i5 14600K 14th Gen Processor performance cores give the speed to handle high-end games and demanding programs, while the processor's Efficient-cores manage low-priority and background operations such as streaming video, playing music, and transcoding media.",
+            "Reviews": "Good product",
+            "keyFeatures": ["Model: Core i5 14600K","Clock Speed: 3.5 GHz up to 5.3 GHz", "Cache: 24 MB, Socket: LGA1700", "CPU Cores: 14, CPU Threads: 20", "Graphics: Intel UHD Graphics 770"]
+          },
+          {
+            "id": "3",
+            "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/core-i7-14700k/core-i7-14700k-01-228x228.webp",
+            "productName": "Intel Core i7 14700KF 14th Gen Raptor Lake Processor",
+            "category": "Processor",
+            "price": "20,500৳",
+            "Regular": "52,500৳",
+            "Status": "In Stock",
+            "Rating": 5,
+            "discription": "The Intel Core i5 14600K 14th Gen Processor will boost your productivity, gaming, and content production. This 14th-generation desktop CPU, built on the Intel 7 technology, provides increased power efficiency while fitting the LGA 1700 socket. The Core i5-14600K has an improved Hybrid Core Architecture that powers programs and games with six 3.5 GHz performance cores and eight low-voltage Efficient-cores for seamless multitasking. The built-in Intel Thread Director guarantees that the two function in unison by dynamically and intelligently distributing tasks to the appropriate core at the appropriate moment. With 24MB of cache and a Turbo Boost clock of 5.3 GHz, this CPU is designed to handle a wide range of applications. This CPU may be overclocked for increased performance. PCI Express 5.0 and up to 192GB of dual-channel DDR5 ECC memory @ 5600 MHz are also supported by the Core i5-14600K.",
+            "subDiscription": "The Intel Core i5 14600K 14th Gen Processor performance cores give the speed to handle high-end games and demanding programs, while the processor's Efficient-cores manage low-priority and background operations such as streaming video, playing music, and transcoding media.",
+            "Reviews": "Good product",
+            "keyFeatures": ["Model: Core i5 14600K","Clock Speed: 3.5 GHz up to 5.3 GHz", "Cache: 24 MB, Socket: LGA1700", "CPU Cores: 14, CPU Threads: 20", "Graphics: Intel UHD Graphics 770"]
+          }
+      ]
+    },
+    {
+      
+      "images": "https://www.ryanscomputers.com/assets/images/category-icon/svg/software.svg",
+      "name": "Motherboard",
+      "prodcuts": [
+        {
+          "id": "4",
+          "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/biostar/a520mh/a520mh-01-500x500.webp",
+          "productName": "BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard",
+          "category": "Motherboard",
+          "price": "8,200৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "Regular": "8,626৳",
+          "discription": "The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard is a high-performance motherboard designed for AMD Ryzen processors. It offers excellent compatibility and functionality for both the 3rd Gen (Matisse/Renoir) and 4th Gen (Vermeer) Ryzen processors. With its AMD A520 single-chip architecture, this motherboard delivers reliable and efficient performance. The motherboard supports up to 2-DIMM DDR4 memory modules, with speeds of up to DDR4-4933+(OC) supported. It offers a wide range of memory frequencies, including 4800(OC), 4600(OC), 4400(OC), 4000(OC), 3800(OC), 3600(OC), 3200, 2933, 2667, 2400, 2133, and 1866, allowing users to choose the optimal configuration for their system. The BIOSTAR A520MH features USB 3.2 Gen1 ports, providing fast data transfer speeds and support for various USB devices. It also includes PCIe M.2 slots, allowing for high-speed storage solutions such as SSDs. The motherboard supports HDMI 4K resolution, enabling users to connect their systems to high-resolution displays for an immersive visual experience. The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard offers a solid foundation for building a powerful and efficient AMD Ryzen-based system. Its extensive compatibility, versatile memory support, and convenient connectivity options make it a great choice for both casual and enthusiast users.",
+          "subTitle": "Buy BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard from Star Tech",
+          "subDiscription":"In Bangladesh, you can get original BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard From Star Tech. We have a large collection of latest BIOSTAR Motherboard to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard comes with 3 years warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: A520MH", "Supported CPU: Ryzen 3rd Gen and 4th Gen processors", "Supported RAM: 2x DIMM, DDR4 4933+(OC)", "Graphics Output: 1 x HDMI, 1 x VGA Port", "Features: 1 x M.2 Slot, Realtek RTL8111H"]
+        },
+        {
+            "id": "5",
+            "image": "https://www.startech.com.bd/image/cache/catalog/component/motherboard/msi-ryzan/b450m-a-pro-max/b450m-a-pro-max-1-228x228.jpg",
+            "productName": "MSI B450M-A PRO MAX AMD AM4 Motherboard",
+            "category": "Motherboard",
+            "price": "8,200৳",
+            "Status": "In Stock",
+            "Rating": 5,
+            "Regular": "8,626৳",
+            "discription": "The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard is a high-performance motherboard designed for AMD Ryzen processors. It offers excellent compatibility and functionality for both the 3rd Gen (Matisse/Renoir) and 4th Gen (Vermeer) Ryzen processors. With its AMD A520 single-chip architecture, this motherboard delivers reliable and efficient performance. The motherboard supports up to 2-DIMM DDR4 memory modules, with speeds of up to DDR4-4933+(OC) supported. It offers a wide range of memory frequencies, including 4800(OC), 4600(OC), 4400(OC), 4000(OC), 3800(OC), 3600(OC), 3200, 2933, 2667, 2400, 2133, and 1866, allowing users to choose the optimal configuration for their system. The BIOSTAR A520MH features USB 3.2 Gen1 ports, providing fast data transfer speeds and support for various USB devices. It also includes PCIe M.2 slots, allowing for high-speed storage solutions such as SSDs. The motherboard supports HDMI 4K resolution, enabling users to connect their systems to high-resolution displays for an immersive visual experience. The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard offers a solid foundation for building a powerful and efficient AMD Ryzen-based system. Its extensive compatibility, versatile memory support, and convenient connectivity options make it a great choice for both casual and enthusiast users.",
+            "subTitle": "Buy BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard from Star Tech",
+            "subDiscription":"In Bangladesh, you can get original BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard From Star Tech. We have a large collection of latest BIOSTAR Motherboard to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard comes with 3 years warranty.",
+            "Reviews": "Good product",
+            "keyFeatures": ["Model: A520MH", "Supported CPU: Ryzen 3rd Gen and 4th Gen processors", "Supported RAM: 2x DIMM, DDR4 4933+(OC)", "Graphics Output: 1 x HDMI, 1 x VGA Port", "Features: 1 x M.2 Slot, Realtek RTL8111H"]
+          },
+          {
+            "id": "6",
+            "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/a520m-a-pro/a520m-a-pro-228x228.jpg",
+            "productName": "MSI A520M-A Pro AM4 AMD Micro-ATX Motherboard",
+            "category": "Motherboard",
+            "price": "8,200৳",
+            "Status": "In Stock",
+            "Rating": 5,
+            "Regular": "8,626৳",
+            "discription": "The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard is a high-performance motherboard designed for AMD Ryzen processors. It offers excellent compatibility and functionality for both the 3rd Gen (Matisse/Renoir) and 4th Gen (Vermeer) Ryzen processors. With its AMD A520 single-chip architecture, this motherboard delivers reliable and efficient performance. The motherboard supports up to 2-DIMM DDR4 memory modules, with speeds of up to DDR4-4933+(OC) supported. It offers a wide range of memory frequencies, including 4800(OC), 4600(OC), 4400(OC), 4000(OC), 3800(OC), 3600(OC), 3200, 2933, 2667, 2400, 2133, and 1866, allowing users to choose the optimal configuration for their system. The BIOSTAR A520MH features USB 3.2 Gen1 ports, providing fast data transfer speeds and support for various USB devices. It also includes PCIe M.2 slots, allowing for high-speed storage solutions such as SSDs. The motherboard supports HDMI 4K resolution, enabling users to connect their systems to high-resolution displays for an immersive visual experience. The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard offers a solid foundation for building a powerful and efficient AMD Ryzen-based system. Its extensive compatibility, versatile memory support, and convenient connectivity options make it a great choice for both casual and enthusiast users.",
+            "subTitle": "Buy BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard from Star Tech",
+            "subDiscription":"In Bangladesh, you can get original BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard From Star Tech. We have a large collection of latest BIOSTAR Motherboard to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The BIOSTAR A520MH DDR4 AMD AM4 Micro ATX Motherboard comes with 3 years warranty.",
+            "Reviews": "Good product",
+            "keyFeatures": ["Model: A520MH", "Supported CPU: Ryzen 3rd Gen and 4th Gen processors", "Supported RAM: 2x DIMM, DDR4 4933+(OC)", "Graphics Output: 1 x HDMI, 1 x VGA Port", "Features: 1 x M.2 Slot, Realtek RTL8111H"]
+          }
+      ]
+    },
+    {
+      
+      "images": "https://www.ryanscomputers.com/assets/images/category-icon/svg/printer.svg",
+      "name": "RAM",
+      "prodcuts": [
+        {
+          "id": "7",
+          "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-ddr5/vengeance-ddr5-02-500x500.jpg",
+          "productName":"Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM",
+          "category": "Ram",
+          "price": "7,000৳",
+          "Regular": "8,626৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM features the unprecedented processing speed of DDR5 that ensures your high-end CPU gets data quickly and with ease. It has a tested latency of 40-40-40-77. Whether you are gaming, creating content, opening 100 tabs, or multi-tasking, your PC can power through complex tasks faster than ever before. Ditch the tedious process of manually adjusting your performance settings each time you save your own XMP profiles through iCUE. The Corsair VENGEANCE 16GB DDR5 6200MHz RAM has wide compatibility. It is optimized for the latest Intel DDR5 motherboards. The low clearance features ensure wide compatibility with nearly any DDR5 build. Corsair VENGEANCE RAM also ensures consistent high-frequency performance with aggressive timing options. swiftly dissipates heat from your memory and has an elegant VENGEANCE design to complement the aesthetic of contemporary systems.",
+          "subTitle":"Buy Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM from Star Tech",
+          "subDiscription":"In Bangladesh, you can get original Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM From Star Tech. We have a large collection of latest Corsair Desktop RAM to purchase your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM comes with lifetime warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["MPN: CMK32GX5M2E6200C36", "Model: VENGEANCE DDR5", "RAM Size: 16GB, Speed: 6200MHz", "Latency: 40-40-40-77","Compatibility: Intel 600 Series", "Performance Profile: XMP 3.0"]
+        },
+        {
+          "id": "8",
+          "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-ddr5/vengeance-ddr5-02-500x500.jpg",
+          "productName":"Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM",
+          "category": "Ram",
+          "price": "7,000৳",
+          "Regular": "8,626৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM features the unprecedented processing speed of DDR5 that ensures your high-end CPU gets data quickly and with ease. It has a tested latency of 40-40-40-77. Whether you are gaming, creating content, opening 100 tabs, or multi-tasking, your PC can power through complex tasks faster than ever before. Ditch the tedious process of manually adjusting your performance settings each time you save your own XMP profiles through iCUE. The Corsair VENGEANCE 16GB DDR5 6200MHz RAM has wide compatibility. It is optimized for the latest Intel DDR5 motherboards. The low clearance features ensure wide compatibility with nearly any DDR5 build. Corsair VENGEANCE RAM also ensures consistent high-frequency performance with aggressive timing options. swiftly dissipates heat from your memory and has an elegant VENGEANCE design to complement the aesthetic of contemporary systems.",
+          "subTitle":"Buy Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM from Star Tech",
+          "subDiscription":"In Bangladesh, you can get original Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM From Star Tech. We have a large collection of latest Corsair Desktop RAM to purchase your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM comes with lifetime warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["MPN: CMK32GX5M2E6200C36", "Model: VENGEANCE DDR5", "RAM Size: 16GB, Speed: 6200MHz", "Latency: 40-40-40-77","Compatibility: Intel 600 Series", "Performance Profile: XMP 3.0"]
+        },
+        {
+          "id": "9",
+          "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-rgb/vengeance-rgb-03-228x228.webp",
+          "productName":"Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM",
+          "category": "Ram",
+          "price": "7,000৳",
+          "Regular": "8,626৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM features the unprecedented processing speed of DDR5 that ensures your high-end CPU gets data quickly and with ease. It has a tested latency of 40-40-40-77. Whether you are gaming, creating content, opening 100 tabs, or multi-tasking, your PC can power through complex tasks faster than ever before. Ditch the tedious process of manually adjusting your performance settings each time you save your own XMP profiles through iCUE. The Corsair VENGEANCE 16GB DDR5 6200MHz RAM has wide compatibility. It is optimized for the latest Intel DDR5 motherboards. The low clearance features ensure wide compatibility with nearly any DDR5 build. Corsair VENGEANCE RAM also ensures consistent high-frequency performance with aggressive timing options. swiftly dissipates heat from your memory and has an elegant VENGEANCE design to complement the aesthetic of contemporary systems.",
+          "subTitle":"Buy Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM from Star Tech",
+          "subDiscription":"In Bangladesh, you can get original Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM From Star Tech. We have a large collection of latest Corsair Desktop RAM to purchase your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Corsair VENGEANCE 16GB DDR5 6200MHz Desktop RAM comes with lifetime warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["MPN: CMK32GX5M2E6200C36", "Model: VENGEANCE DDR5", "RAM Size: 16GB, Speed: 6200MHz", "Latency: 40-40-40-77","Compatibility: Intel 600 Series", "Performance Profile: XMP 3.0"]
+        }
+      ]
+    },
+    {
+
+      "images": "https://www.ryanscomputers.com/assets/images/category-icon/svg/GPU.svg",
+      "name": "Power Supply",
+      "prodcuts": [
+        {
+          "id": "10",
+          "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-500x500.webp",
+          "productName": "Power Train PT-P200B 200W Power Supply",
+          "category": "Power Supply",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        },
+        {
+          "id": "11",
+          "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-500x500.webp",
+          "productName": "Power Train PT-P200B 200W Power Supply",
+          "category": "Power Supply",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        },
+        {
+          "id": "12",
+          "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v350/meta-v350-01-500x500.webp",
+          "productName": "Power Train PT-P200B 200W Power Supply",
+          "category": "Power Supply",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        }
+      ]
+    },
+    {
+    
+      "images": "https://www.ryanscomputers.com/assets/images/category-icon/svg/speaker.svg",
+      "name": "Storage Device",
+      "prodcuts": [
+        {
+          "id": "13",
+          "image": "https://www.startech.com.bd/image/cache/catalog/earbuds/edifier/tws1-pro-2/tws1-pro-2-01-228x228.webp",
+          "productName": "Edifier TWS1 Pro 2 True Wireless Active Noise Cancellation In-Ear Earbuds",
+          "category": "Storage Device",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        },
+        {
+          "id": "14",
+          "image": "https://www.startech.com.bd/image/cache/catalog/earbuds/edifier/x2s/x2s-01-228x228.webp",
+          "productName": "Edifier X2s True Wireless Earbuds",
+          "category": "Storage Device",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        },
+        {
+          "id": "15",
+          "image": "https://www.startech.com.bd/image/cache/catalog/earbuds/joyroom/jr-tn1/joyroom-jr-tn1-earbuds-black-01-500x500.jpg",
+          "productName": "Joyroom JR-TN1 ENC TWS Bluetooth Earbuds",
+          "category": "Storage Device",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        }
+      ]
+    },
+    {
+      
+      "images": "https://www.ryanscomputers.com/assets/images/category-icon/svg/Monitor.svg",
+      "name": "Monitor",
+      "prodcuts": [
+        {
+          "id": "16",
+          "image": "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/m22f/m22f-500x500.jpg",
+          "productName": "HP M22f 22, FHD IPS Monitor",
+          "category": "Monitor",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        },
+        {
+          "id": "17",
+          "image": "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/e22-g4/e22-g4-1-500x500.jpg",
+          "productName": "HP E22 G4 21.5 FHD IPS Monitor",
+          "category": "Monitor",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        },
+        {
+          "id": "18",
+          "image": "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/24mh/24mh-01-500x500.webp",
+          "productName": "HP 24mh 23.8-inch FHD IPS Monitor",
+          "category": "Monitor",
+          "price": "20,500৳",
+          "Regular": "42,500৳",
+          "Status": "In Stock",
+          "Rating": 5,
+          "discription": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+          "subTitle": "Buy Power Train PT-P200B 200W Power Supply from Star Tech",
+          "subDiscription": "In Bangladesh, you can get original Power Train PT-P200B 200W Power Supply From Star Tech. We have a large collection of latest Power Train Power Supply to purchase for your Desktop PC. Order Online Or Visit your Nearest Star Tech Shop to get yours at lowest price. The Power Train PT-P200B 200W Power Supply comes with no warranty.",
+          "Reviews": "Good product",
+          "keyFeatures": ["Model: PT-P200B", "Power: 200W", "Voltage: 220V", "Modular Type: Non-Modular", "1x 12CM Temperature Control Fan"]
+        }
+      ]
+    }
+  ]
