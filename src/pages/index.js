@@ -1,5 +1,5 @@
 import RootLayout from "@/components/layout/RootLayout"
-import FeatureCategoris from "@/pages/FeatureCategoris/FeatureCategoris";
+import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
 import Randomproducts from "@/components/ui/randomproducts/Randomproducts";
 
 
