@@ -3,7 +3,7 @@ import Categoris from "./Categoris";
 
 
 const FeatureCategoris = ({categoris}) => {
-   console.log("|ddddddddddd",categoris)
+  
    
 
 
