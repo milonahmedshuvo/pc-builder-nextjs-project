@@ -10,7 +10,6 @@ const HomePage = ({prodcuts, categoris}) => {
   
   return (
     <div className="">
-       <h1 className="text-red-400 text-4xl">home page root: </h1>
        <Randomproducts prodcuts={prodcuts} ></Randomproducts>
        <FeatureCategoris categoris={categoris} ></FeatureCategoris>
     </div>
