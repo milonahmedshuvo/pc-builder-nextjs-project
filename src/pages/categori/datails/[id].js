@@ -9,3 +9,6 @@ const CategoriProductDatails = () => {
 }
 
 export default CategoriProductDatails;
+
+
+

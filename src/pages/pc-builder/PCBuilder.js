@@ -1,4 +1,5 @@
 import RootLayout from "@/components/layout/RootLayout";
+import Link from "next/link";
 
 const PCBuilderPage = ({ categoriImage }) => {
   console.log(categoriImage);
@@ -9,7 +10,7 @@ const PCBuilderPage = ({ categoriImage }) => {
       <div className=" flex justify-between items-center pb-7 ">
         <div>
           <h3 className="text-lg">
-            PC Builder - Build Your Own Computer - Star Tech
+            PC Builder - Build Your Own Computer - Ryans
           </h3>
           <div className="flex justify-start items-center">
             <input type="checkbox" name="" id="" className="mr-2" />
@@ -40,10 +41,12 @@ const PCBuilderPage = ({ categoriImage }) => {
             </div>
 
             <div>
+              <Link href={`/pc-builder/${categori._id}`}>
               <button className=" hover:bg-[#72BF44] border border-[#72BF44] px-8 py-4 text-[#72BF44] font-semibold rounded hover:text-white">
                 {" "}
                 Select{" "}
               </button>
+              </Link>
             </div>
           </div>
         ))}
