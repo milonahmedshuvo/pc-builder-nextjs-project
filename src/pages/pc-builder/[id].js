@@ -7,7 +7,7 @@ console.log(products)
 
   return (
     <div>
-       <h1>pc builder categori page </h1>  
+       <h1>pc builder categori pc builder page dainamic products  </h1>  
     </div>
   )
 }
