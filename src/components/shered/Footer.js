@@ -23,10 +23,20 @@ const Footer = () => {
        <div className='border border-green-500 flex flex-col md:flex-row justify-around'>
             <div>
               <p>Company Datails</p>
+               <p className='mt-4'>About us</p>
+               <p>Blog</p>
+               <p>Online Datails</p>
+               <p>payment system</p>
+               <p>Trams and conditions</p>
             </div>    
 
             <div>
               <p>Customer Support</p>
+              <p className='mt-4'>About us</p>
+               <p>Blog</p>
+               <p>Online Datails</p>
+               <p>payment system</p>
+               <p>Trams and conditions</p>
             </div>
        </div>
     </div>
