@@ -12,16 +12,16 @@ const {image, productName, category, price, Status, Rating, discription, _id } =
         </div>
 
         <div className='flex flex-col justify-between  '>
-        <p className='hover:text-[#ef4a23] text-[20px] my-2'>{productName}</p>
-        <p className='mb-[2px] text-[18px]'>Category: {category}</p>
-        <p className='mb-[2px] text-[18px]'>Status: {Status}</p>
-        <p className='mb-[2px] text-[18px]'>Rating: {Rating}</p>
+        <p className='hover:text-[#ef4a23] text-[17px] md:text-[20px] my-2'>{productName}</p>
+        <p className='mb-[2px] text-[14px] md:text-[18px]'>Category: {category}</p>
+        <p className='mb-[2px] text-[14px] md:text-[18px]'>Status: {Status}</p>
+        <p className='mb-[2px] text-[14px] md:text-[18px]'>Rating: {Rating}</p>
         <div className='flex justify-between'>
-        <p className='mb-1 text-[18px]'>Price: <span className='text-[#ef4a23]'>{price}</span> </p>
+        <p className='mb-1 text-[14px] md:text-[18px]'>Price: <span className='text-[#ef4a23]'>{price}</span> </p>
 
        
          <Link href={`/RandomproDatails/${_id}`}>
-         <button type="button" className='border border-[#929de2] px-4 rounded  text-[#3749BB] py-1'>Datails</button>
+         <button type="button" className='border border-[#72BF44] px-4 rounded  text-[#72BF44] py-1'>Datails</button>
          </Link>
 
         </div>
