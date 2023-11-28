@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-
+import { AiOutlineMail } from "react-icons/ai";
 
 const Slider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -50,13 +50,42 @@ const Slider = () => {
          <p className='text-black font-medium text-lg text-center'>Compare Products</p>
           <p className='text-[#9c9168] text-center'>Choose Two Products to Compare</p>
 
+            
+          <div className="flex pl-5 appearance-none border rounded shadow-md  bg-white items-center mt-8">
+                <AiOutlineMail className="text-xl text-[#1C1B1F]"></AiOutlineMail>
+                <input
+                  className="w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  name="email"
+                  type="email"
+                  placeholder="Enter Your Email..."
+                />
+              </div>
 
 
-          <button type="button" className='text-[#72BF44] border-2 border-[#72BF44] w-full py-2 font-semibold '> View Comparison</button>
+              <div className="flex pl-5 appearance-none border rounded shadow-md  bg-white items-center mt-2">
+                <AiOutlineMail className="text-xl text-[#1C1B1F]"></AiOutlineMail>
+                <input
+                  className="w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  name="email"
+                  type="email"
+                  placeholder="Enter Your Text..."
+                />
+              </div>
+
+          <button type="button" className='text-[#72BF44] border-[3px] rounded mt-8 border-[#72BF44] w-full py-3 font-semibold '> View Comparison</button>
          </div>
 
-
         </div>
+
+
+
+
+
+
+
+         
+              
+           
        
       </div>
     </div>
