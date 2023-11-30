@@ -102,7 +102,7 @@ const Slider = () => {
            </div>
 
            <div className="ml-2" >
-            <p className="font-semibold text-xl">Laptop Finder</p>
+            <p className="font-medium text-xl">Laptop Finder</p>
             <p>Find Your Laptop Easily </p>
            </div>
       </div>
@@ -114,7 +114,7 @@ const Slider = () => {
            </div>
 
            <div className="ml-2" >
-            <p className="font-semibold text-xl">Raise a compiline</p>
+            <p className="font-medium text-xl">Raise a compiline</p>
             <p>Sheare your Experience </p>
            </div>
       </div>
@@ -127,7 +127,7 @@ const Slider = () => {
            </div>
 
            <div className="ml-2" >
-            <p className="font-semibold text-xl">Online Support</p>
+            <p className="font-medium text-xl">Online Support</p>
             <p>Get Online Support </p>
            </div>
       </div>
@@ -139,7 +139,7 @@ const Slider = () => {
            </div>
 
            <div className="ml-2" >
-            <p className="font-semibold text-xl">Service Center</p>
+            <p className="font-medium text-xl">Service Center</p>
             <p>Repair your Device </p>
            </div>
       </div>
