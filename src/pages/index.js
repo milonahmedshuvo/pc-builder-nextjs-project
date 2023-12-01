@@ -1,6 +1,7 @@
 import RootLayout from "@/components/layout/RootLayout"
 import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
 import Slider from "@/components/ui/Slider/Slider";
+import TopSelling from "@/components/ui/TopSelling/TopSelling";
 import Randomproducts from "@/components/ui/randomproducts/Randomproducts";
 
 
@@ -12,6 +13,7 @@ const HomePage = ({prodcuts, categoris}) => {
   return (
     <div className="">
        <Slider></Slider>
+       <TopSelling></TopSelling>
        <Randomproducts prodcuts={prodcuts} ></Randomproducts>
        <FeatureCategoris categoris={categoris} ></FeatureCategoris>
     </div>
