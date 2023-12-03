@@ -7,15 +7,17 @@ import Randomproducts from "@/components/ui/randomproducts/Randomproducts";
 
 
 
-const HomePage = ({prodcuts, categoris}) => {
- console.log("multipule fetch", categoris)
+
+const HomePage = ({prodcuts, categoris, topselling}) => {
+      
   
   return (
     <div className="">
        <Slider></Slider>
-       <TopSelling></TopSelling>
-       <Randomproducts prodcuts={prodcuts} ></Randomproducts>
-       <FeatureCategoris categoris={categoris} ></FeatureCategoris>
+       
+        <TopSelling topselling={topselling} />
+       <Randomproducts prodcuts={prodcuts} />
+       <FeatureCategoris categoris={categoris} />
     </div>
   )
 }
@@ -29,10 +31,15 @@ export const getStaticProps = async () => {
   const res2 = await fetch("http://localhost:5000/categoris")
   const data2 = await res2.json() 
 
+  const res3 = await fetch("http://localhost:5000/topSellingProducts")
+  const data3 = await res3.json()
+  
+
   return {
     props:{
       prodcuts: data,
-      categoris:data2 
+      categoris:data2,
+      topselling: data3 
     }
   }
 }

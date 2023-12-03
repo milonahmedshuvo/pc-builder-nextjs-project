@@ -1,0 +1,34 @@
+[
+    {
+      "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20230919_1695118590_281676.jpeg",
+      "title": "iPhone 15 Pro Max",
+      "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+      "tk": "Tk. 239,999",
+      "balance": "Tk. 239,999 - Tk. 319,999",
+      "discription": "Up to 24 months 0% EMI with up to 18K cash back or up to 17K accessories bundles, and up to 8K trade-in bonus"
+    },
+    {
+      "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20231026_1698290909_643064.jpeg",
+      "title": "iPhone 15 Pro",
+      "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+      "balance": "Tk. 199,999 - Tk. 299,999",
+      "tk" : "Tk. 199,999",
+      "discription": "Up to 24 months 0% EMI with up to 18K cash back or up to 17K accessories bundles, and up to 8K trade-in bonus"
+    },
+    {
+      "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20220923_1663932121_316007.jpeg",
+      "title": "Galaxy Watch 5",
+      "logo": "https://static.gadgetandgear.com/tmp/brand/20180405_1522919778_830681.png",
+      "balance": "Tk. 31,999 - Tk. 21,999",
+      "tk": "Tk. 31,999",
+      "discription": "Up to 24 months 0% EMI with up to 18K cash back or up to 17K accessories bundles, and up to 8K trade-in bonus"
+    },
+    {
+      "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20231109_1699518759_729998.jpeg",
+      "title": "AirPods Pro USB-C (2nd generation)",
+      "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+      "balance": "Tk. 30,999 - Tk. 20,599",
+      "tk": "Tk. 30,999",
+      "discription": "Up to 24 months 0% EMI with up to 18K cash back or up to 17K accessories bundles, and up to 8K trade-in bonus"
+    }
+  ]
