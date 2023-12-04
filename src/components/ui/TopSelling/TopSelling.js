@@ -3,7 +3,7 @@
 const TopSelling = ({topselling}) => {
 
 
-   console.log("topselling", topselling)
+   console.log("topselling/", topselling)
 
 
 
@@ -13,6 +13,30 @@ const TopSelling = ({topselling}) => {
        
        <div className="hover:shadow-xl duration-150">
        <img src="https://gadgetandgear.com/img/home-new/top-selling-banner.de5b405d.png" alt="" />
+       </div>
+
+
+
+       <div className="grid grid-cols-4">
+        {
+          topselling.map((product, i) => <div key={product._id}  >
+
+             <div>
+              <img src={product.images} alt="" />
+             </div>
+
+             <img src={product.logo} alt="" />
+
+             <p>{product.tk}</p>
+
+
+
+             <div className="flex justify-between ">
+              <button type="button">ADD TO CART</button>
+              <button type="button">Buy now</button>
+             </div>
+          </div>)
+        }
        </div>
 
 
