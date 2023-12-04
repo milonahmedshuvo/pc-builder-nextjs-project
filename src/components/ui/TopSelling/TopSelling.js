@@ -17,23 +17,29 @@ const TopSelling = ({topselling}) => {
 
 
 
-       <div className="grid grid-cols-4">
+       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-4">
         {
-          topselling.map((product, i) => <div key={product._id}  >
+          topselling.map((product, i) => <div key={product._id} className=" p-4" >
 
-             <div>
+             <div className="flex justify-center items-center">
               <img src={product.images} alt="" />
              </div>
 
-             <img src={product.logo} alt="" />
+             <div className="flex justify-center items-center ">
+                <img className=" w-1/6" src={product.logo} alt="" />
+             </div>
 
-             <p>{product.tk}</p>
+
+             <p className="rubik text-[16px] font-semibold text-[#1D1D1B] text-center ">{product.title}</p>
+
+
+             <p className="rubik text-[16px] font-semibold text-[#F26E21] text-center mt-10 ">{product.tk}</p>
 
 
 
-             <div className="flex justify-between ">
-              <button type="button">ADD TO CART</button>
-              <button type="button">Buy now</button>
+             <div className="grid grid-cols-2 gap-6 mt-5 ">
+              <button type="button" className="text-[#3197E9] bg-[#EAF4FD] border border-[#A0CEF4] rounded py-3 px-1 font-semibold text-base " >ADD TO CART</button>
+              <button type="button" className="text-[#F26E21] bg-[#FEF0E8] border border-[#F9BC98] rounded py-3 px-1 font-semibold text-base ">Buy now</button>
              </div>
           </div>)
         }
