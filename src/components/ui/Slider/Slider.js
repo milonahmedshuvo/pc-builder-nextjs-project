@@ -42,7 +42,7 @@ const Slider = () => {
         <div className=" w-full md:w-1/4  flex flex-col gap-3">
           {/* item 1  */}
           <div className="bg-[#FFE8A1] py-2 lg:py-5  ">
-            <div className=" lg:mx-10 m-auto">
+            <div className=" mx-10 m-auto">
               <p className="text-black font-medium text-lg text-center">
                 Compare Products
               </p>
@@ -60,7 +60,7 @@ const Slider = () => {
                 />
               </div>
 
-              <div className="flex pl-5 appearance-none border rounded shadow-md  bg-white items-center mt-2">
+              <div className="flex pl-5 appearance-none border rounded shadow-md  bg-white items-center     mt-2">
                 <AiOutlineMail className="text-xl text-[#1C1B1F]"></AiOutlineMail>
                 <input
                   className="w-full py-1 lg:py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
