@@ -16,11 +16,11 @@ const Navber = () => {
 
       <div className="flex justify-between">
         {/* dropdown manu  */}
-        <div className="right-manu  relative mx-6">
+        <div className="right-manu  relative mx-2 md:mx-6">
           <button type="button" className="manu-btn">
             catagory
           </button>
-          <div className="drowpdown py-4 border-t-4 border-green-400 shadow-xl absolute hidden min-w-[179px] z-[1px]">
+          <div className="drowpdown z-10 py-4 border-t-4 border-green-400 shadow-xl absolute hidden min-w-[179px] ">
             <a href="" className="block">
               CPU / Processor
             </a>
@@ -38,8 +38,8 @@ const Navber = () => {
 
         {/* button  */}
         <Link href="/pc-builder/PCBuilder" >
-        <div className="mx-8 ">
-          <button className="bg-[#72BF44] text-white font-semibold py-1 px-6 rounded">
+        <div className=" mx-1 md:ml-4 ">
+          <button className="bg-[#72BF44] text-white font-normal md:font-semibold py-1 px-2 md:px-6 rounded">
             PC Builder
           </button>
         </div>
