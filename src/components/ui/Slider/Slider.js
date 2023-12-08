@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaLaptop, FaHeadphonesSimple, FaRegSun, FaWater} from "react-icons/fa6";
+import {
+  FaLaptop,
+  FaHeadphonesSimple,
+  FaRegSun,
+  FaWater,
+} from "react-icons/fa6";
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
@@ -90,60 +95,67 @@ const Slider = () => {
         </div>
       </div>
 
-
-
-
       {/* last section card 4 items  */}
       <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
-      {/* item 1 */}
-      <div className="flex items-center bg-[#F2F4F8]  py-4 px-1">
-           <div className="w-14 h-14 rounded-full bg-[#EF4A23] flex justify-center items-center">
-              <p className="text-2xl md:text-3xl text-white"> <FaLaptop></FaLaptop> </p>
-           </div>
+        {/* item 1 */}
+        <div className="flex items-center bg-[#F2F4F8]  py-4 px-1">
+          <div className="w-14 h-14 rounded-full bg-[#EF4A23] flex justify-center items-center">
+            <p className="text-2xl md:text-3xl text-white">
+              {" "}
+              <FaLaptop></FaLaptop>{" "}
+            </p>
+          </div>
 
-           <div className="ml-2" >
+          <div className="ml-2">
             <p className="font-medium text-md md:text-lg">Laptop Finder</p>
             <p className="text-sm">Find Laptop Easily </p>
-           </div>
-      </div>
+          </div>
+        </div>
 
-      {/* items 2 */}
-      <div className="flex items-center bg-[#F2F4F8] py-1 md:py-4 px-1 ">
-           <div className="w-14 h-14 rounded-full bg-[#EF4A23] flex justify-center items-center">
-              <p className="text-2xl md:text-3xl text-white"> <FaWater></FaWater> </p>
-           </div>
+        {/* items 2 */}
+        <div className="flex items-center bg-[#F2F4F8] py-1 md:py-4 px-1 ">
+          <div className="w-14 h-14 rounded-full bg-[#EF4A23] flex justify-center items-center">
+            <p className="text-2xl md:text-3xl text-white">
+              {" "}
+              <FaWater></FaWater>{" "}
+            </p>
+          </div>
 
-           <div className="ml-2" >
+          <div className="ml-2">
             <p className="font-medium text-md md:text-lg">Raise compiline</p>
             <p className="text-sm">Sheare Experience </p>
-           </div>
-      </div>
+          </div>
+        </div>
 
+        {/* items 3  */}
+        <div className="flex items-center bg-[#F2F4F8] py-4 px-1">
+          <div className="w-14 h-14 rounded-full bg-[#EF4A23] flex justify-center items-center">
+            <p className="text-2xl md:text-3xl text-white">
+              {" "}
+              <FaHeadphonesSimple></FaHeadphonesSimple>{" "}
+            </p>
+          </div>
 
-      {/* items 3  */}
-      <div className="flex items-center bg-[#F2F4F8] py-4 px-1">
-           <div className="w-14 h-14 rounded-full bg-[#EF4A23] flex justify-center items-center">
-              <p className="text-2xl md:text-3xl text-white"> <FaHeadphonesSimple></FaHeadphonesSimple> </p>
-           </div>
-
-           <div className="ml-2" >
+          <div className="ml-2">
             <p className="font-medium text-md md:text-lg">Online Support</p>
             <p className="text-sm">Get Online Support </p>
-           </div>
-      </div>
+          </div>
+        </div>
 
-      {/* items 4  */}
-      <div className="flex items-center bg-[#F2F4F8] py-4 px-1">
-           <div className="w-14 h-14 rounded-full bg-[#EF4A23] flex justify-center items-center">
-              <p className="text-2xl md:text-3xl text-white"> <FaRegSun> </FaRegSun> </p>
-           </div>
+        {/* items 4  */}
+        <div className="flex items-center bg-[#F2F4F8] py-4 px-1">
+          <div className="w-14 h-14 rounded-full bg-[#EF4A23] flex justify-center items-center">
+            <p className="text-2xl md:text-3xl text-white">
+              {" "}
+              <FaRegSun> </FaRegSun>{" "}
+            </p>
+          </div>
 
-           <div className="ml-2" >
+          <div className="ml-2">
             <p className="font-medium text-sm md:text-lg">Service Center</p>
             <p className="text-sm">Repair your Device </p>
-           </div>
-      </div>
-      
+          </div>
+        </div>
       </div>
     </div>
   );
