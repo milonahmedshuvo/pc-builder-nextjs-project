@@ -1,6 +1,7 @@
 import RootLayout from "@/components/layout/RootLayout"
 import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
 import Slider from "@/components/ui/Slider/Slider";
+import Speakerhome from "@/components/ui/Speaker/Speakerhome";
 import TopSelling from "@/components/ui/TopSelling/TopSelling";
 import Randomproducts from "@/components/ui/randomproducts/Randomproducts";
 
@@ -8,7 +9,7 @@ import Randomproducts from "@/components/ui/randomproducts/Randomproducts";
 
 
 
-const HomePage = ({prodcuts, categoris, topselling}) => {
+const HomePage = ({prodcuts, categoris, topselling, speakerImg }) => {
       
   
   return (
@@ -16,6 +17,7 @@ const HomePage = ({prodcuts, categoris, topselling}) => {
        <Slider></Slider>
        
         <TopSelling topselling={topselling} />
+        <Speakerhome speakerImg={speakerImg} />
        <Randomproducts prodcuts={prodcuts} />
        <FeatureCategoris categoris={categoris} />
     </div>
@@ -33,13 +35,17 @@ export const getStaticProps = async () => {
 
   const res3 = await fetch("http://localhost:5000/topSellingProducts")
   const data3 = await res3.json()
+
+  const res = await fetch("http://localhost:5000/spekerfourImg")
+  const speakerdata = await res.json()
   
 
   return {
     props:{
       prodcuts: data,
       categoris:data2,
-      topselling: data3 
+      topselling: data3,
+      speakerImg: speakerdata 
     }
   }
 }

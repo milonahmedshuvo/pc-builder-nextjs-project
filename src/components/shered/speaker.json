@@ -1,0 +1,238 @@
+[
+    {
+      "images": "https://static.gadgetandgear.com/tmp/four_image/20230613_1686597662_213209.png",
+      "products": [
+        {
+          "id": "1",
+          "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20210601_1622531577_640699.jpeg",
+          "title": "Air Tag 1 Pack",
+          "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+          "price": 38.99,
+          "status": true,
+          "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+        },
+        {
+            "id": "2",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20231109_1699518759_729998.jpeg",
+            "title": "AirPods Pro USB-C (2nd generation)",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 48.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "3",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20190508_1557322384_300360.jpeg",
+            "title": "Apple Airpods (2nd Generation) With Charging Case",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 50.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "4",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20211124_1637737800_997796.png",
+            "title": "Apple Watch Series 7 Sport Band (45mm)",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 70.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "5",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20221002_1664700593_721937.jpeg",
+            "title": "Silicone Case MagSafe for iPhone 14 Plus",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 98.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "6",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20210715_1626336890_878702.png",
+            "title": "Apple AirTag Smart Tracker 4 Pack",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 138.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          }
+      ]
+    },
+    {
+      "images": "https://static.gadgetandgear.com/tmp/four_image/20230613_1686597662_478346.png",
+      "products": [
+        {
+          "id": "1",
+          "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20231012_1697109875_886371.jpeg",
+          "title": "Amazfit Balance Smart Watch",
+          "logo": "https://static.gadgetandgear.com/tmp/brand/20220723_1658552304_683774.jpeg",
+          "price": 38.99,
+          "status": false,
+          "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+        },
+        {
+            "id": "2",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20231012_1697110289_497614.jpeg",
+            "title": "Apple Watch Series 9 Sport Band",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 40.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "3",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20231129_1701242220_825334.jpeg",
+            "title": "Amazfit Active Smart Watch",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 185.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "4",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20230620_1687250649_608743.jpeg",
+            "title": "TITAN Smart Talk BT Calling Watch",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 88.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "5",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20230603_1685764180_683770.jpeg",
+            "title": "imilab W01 Smart Watch",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 68.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "6",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20210715_1626336890_878702.png",
+            "title": "Apple AirTag Smart Tracker 4 Pack",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 78.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          }
+      ]
+    },
+    {
+      "images": "https://static.gadgetandgear.com/tmp/four_image/20230613_1686597663_929405.png",
+      "products": [
+        {
+          "id": "1",
+          "images":"https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20200717_1594980988_953973.jpeg",
+          "title":"Aura Studio 3",
+          "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+          "price": 90.99,
+          "status": true,
+          "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+        },
+        {
+            "id": "2",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20220208_1644312178_893319.png",
+            "title": "Sony SRS X-Series Portable Wireless",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 148.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "3",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20230212_1676174447_411557.jpeg",
+            "title": "EDIFIER MP120 Portable BL Speaker",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 150.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "4",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20210904_1630734602_515905.png",
+            "title": "harman/kardon GO+PLAY Mini",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 70.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "5",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20220922_1663839870_918193.jpeg",
+            "title": "Marshall Acton III Portable BT Speaker",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 98.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "6",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20210715_1626336890_878702.png",
+            "title": "Apple AirTag Smart Tracker 4 Pack",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 138.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          }
+      ]
+    },
+    {
+      "images": "https://static.gadgetandgear.com/tmp/four_image/20230613_1686597663_525719.png",
+      "products": [
+        {
+          "id": "1",
+          "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20230204_1675494233_891361.jpeg",
+          "title": "Tucano Work Out 4 BackPack for MacBook Pro 16 & Laptop 15.6",
+          "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+          "price": 100.99,
+          "status": false,
+          "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+        },
+        {
+            "id": "2",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20231109_1699518759_729998.jpeg",
+            "title": "AirPods Pro USB-C (2nd generation)",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 110.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "3",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20230204_1675483552_322018.jpeg",
+            "title": "Tucano Speed BackPack for MacBook",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 50.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "4",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20230204_1675484164_209769.jpeg",
+            "title": "Tucano Guscio Case for iPad 10.2 inch",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 70.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "5",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20221002_1664700593_721937.jpeg",
+            "title": "Silicone Case MagSafe for iPhone 14 Plus",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 50.99,
+            "status": true,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          },
+          {
+            "id": "6",
+            "images": "https://static.gadgetandgear.com/image/250x250/fit/tmp/product/20210715_1626336890_878702.png",
+            "title": "Apple AirTag Smart Tracker 4 Pack",
+            "logo": "https://static.gadgetandgear.com/tmp/brand/20210920_1632127211_379107.jpeg",
+            "price": 138.99,
+            "status": false,
+            "discription": "The present age is the age of information technology, the modern age. We can see the touch of modernity everywhere now. We don't have to go to the market any more to market like all other fields. In the magic of the internet, we can now do all the marketing at home by moving our fingers on the PC or the screen of the smartone. "
+          }
+      ]
+    }
+  ]
