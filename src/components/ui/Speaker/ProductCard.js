@@ -1,6 +1,9 @@
 import Link from "next/link"
 
 const ProductCard = ({product}) => {
+    console.log(product)
+
+
   return (
     <div>
        <div>
@@ -13,6 +16,7 @@ const ProductCard = ({product}) => {
         <p className="text-sm">
           {/* Availability: {product?.status ? 'In stock' : 'Out of stock'} */}
         </p>
+        <p className="text-sm">{product?.title}</p>
         <p className="text-sm">Price: {product?.price}</p>
         <button variant="default">
           Add to cart
