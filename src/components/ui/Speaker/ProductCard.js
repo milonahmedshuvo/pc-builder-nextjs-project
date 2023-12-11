@@ -5,7 +5,7 @@ const ProductCard = ({product}) => {
     <div>
        <div>
       <div className="rounded-2xl h-[480px] flex flex-col items-start justify-between p-5 overflow-hidden shadow-md border border-gray-100 hover:shadow-2xl hover:scale-[102%] transition-all gap-2">
-        <Link href={`/product-details/${product._id}`} className="w-full">
+        <Link href={`/speaker/product-details/${product.id}`} className="w-full">
           <img src={product?.images} alt="product" />
           <h1 className="text-xl font-semibold">{product?.name}</h1>
         </Link>
