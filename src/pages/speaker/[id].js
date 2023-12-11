@@ -44,7 +44,7 @@ const SpeakerProductDatails = ({speakerProducts}) => {
           <div>From 0$ To $</div>
         </div>
       </div>
-      <div className="col-span-9 grid grid-cols-3 gap-10 pb-20">
+      <div className="col-span-9 grid grid-col-1 md:grid-cols-3 gap-10 pb-20">
         {products?.map((product) => (
           <ProductCard product={product} />
         ))}
