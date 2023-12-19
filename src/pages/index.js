@@ -1,4 +1,5 @@
 import RootLayout from "@/components/layout/RootLayout"
+import Arrivalhome from "@/components/ui/Arrival/Arrivalhome";
 import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
 import Offerproducts from "@/components/ui/Offerproducts/offerproducts";
 import Slider from "@/components/ui/Slider/Slider";
@@ -20,6 +21,7 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg }) => {
         <TopSelling topselling={topselling} />
         <Speakerhome speakerImg={speakerImg} />
         <Offerproducts />
+        <Arrivalhome />
        <Randomproducts prodcuts={prodcuts} />
        <FeatureCategoris categoris={categoris} />
     </div>
