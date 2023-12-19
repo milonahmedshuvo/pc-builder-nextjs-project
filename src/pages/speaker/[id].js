@@ -12,7 +12,7 @@ const SpeakerProductDatails = ({speakerProducts}) => {
   return (
     <div>
         
-        <div className="grid grid-cols-12 gap-10 max-w-7xl mx-auto relative ">
+        <div className="grid grid-cols-12 gap-10 max-w-7xl mx-auto relative mt-10 mb-20 ">
 
       <div className=" col-span-12 md:col-span-3 z  space-y-5 border rounded-2xl border-gray-200/80 p-5 self-start  md:sticky top-16 h-[calc(100vh-650px)] md:h-[calc(100vh-80px)]">
         <div>

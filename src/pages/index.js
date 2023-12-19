@@ -1,5 +1,6 @@
 import RootLayout from "@/components/layout/RootLayout"
 import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
+import Offerproducts from "@/components/ui/Offerproducts/offerproducts";
 import Slider from "@/components/ui/Slider/Slider";
 import Speakerhome from "@/components/ui/Speaker/Speakerhome";
 import TopSelling from "@/components/ui/TopSelling/TopSelling";
@@ -18,6 +19,7 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg }) => {
        
         <TopSelling topselling={topselling} />
         <Speakerhome speakerImg={speakerImg} />
+        <Offerproducts />
        <Randomproducts prodcuts={prodcuts} />
        <FeatureCategoris categoris={categoris} />
     </div>
