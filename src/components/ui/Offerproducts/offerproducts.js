@@ -13,9 +13,20 @@ const Offerproducts = () => {
 
 
       {/* two image defind  */}
-      
-       
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-10">
 
+         <div>
+            <img className="hover:shadow-2xl" src="https://static.gadgetandgear.com/tmp/offers/20230926_1695703665_207752.png" alt="" />
+         </div>
+
+         <div>
+            <img className="hover:shadow-2xl " src="https://static.gadgetandgear.com/tmp/offers/20230926_1695702719_415108.png" alt="" />
+         </div>
+
+
+      </div>
+       
+      
 
 
 
