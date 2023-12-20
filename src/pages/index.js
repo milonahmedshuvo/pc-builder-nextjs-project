@@ -11,7 +11,7 @@ import Randomproducts from "@/components/ui/randomproducts/Randomproducts";
 
 
 
-const HomePage = ({prodcuts, categoris, topselling, speakerImg }) => {
+const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts }) => {
       
   
   return (
@@ -21,7 +21,7 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg }) => {
         <TopSelling topselling={topselling} />
         <Speakerhome speakerImg={speakerImg} />
         <Offerproducts />
-        <Arrivalhome />
+        <Arrivalhome arrivalproducts={arrivalproducts} />
        <Randomproducts prodcuts={prodcuts} />
        <FeatureCategoris categoris={categoris} />
     </div>
@@ -42,6 +42,9 @@ export const getStaticProps = async () => {
 
   const res = await fetch("http://localhost:5000/spekerfourImg")
   const speakerdata = await res.json()
+
+  const resArri = await fetch("http://localhost:5000/arrivalproducts")
+  const products = await resArri.json()
   
 
   return {
@@ -49,7 +52,8 @@ export const getStaticProps = async () => {
       prodcuts: data,
       categoris:data2,
       topselling: data3,
-      speakerImg: speakerdata 
+      speakerImg: speakerdata,
+      arrivalproducts : products 
     }
   }
 }
