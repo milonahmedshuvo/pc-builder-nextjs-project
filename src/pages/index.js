@@ -1,6 +1,7 @@
 import RootLayout from "@/components/layout/RootLayout"
 import Arrivalhome from "@/components/ui/Arrival/Arrivalhome";
 import Belkin from "@/components/ui/Belkin/Belkin";
+import Deals from "@/components/ui/Deals/Dealshome";
 import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
 import Offerproducts from "@/components/ui/Offerproducts/offerproducts";
 import Slider from "@/components/ui/Slider/Slider";
@@ -12,7 +13,7 @@ import Randomproducts from "@/components/ui/randomproducts/Randomproducts";
 
 
 
-const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts }) => {
+const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts, dealsproducts }) => {
       
   
   return (
@@ -23,7 +24,8 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts 
         <Speakerhome speakerImg={speakerImg} />
         <Offerproducts />
         <Arrivalhome arrivalproducts={arrivalproducts} />
-        <Belkin></Belkin>
+        <Belkin />
+        <Deals dealsproducts={dealsproducts} />
        <Randomproducts prodcuts={prodcuts} />
        <FeatureCategoris categoris={categoris} />
     </div>
@@ -47,6 +49,9 @@ export const getStaticProps = async () => {
 
   const resArri = await fetch("http://localhost:5000/arrivalproducts")
   const products = await resArri.json()
+
+  const resDeals = await fetch("http://localhost:5000/dealsproducts")
+  const dealsData = await resDeals.json()
   
 
   return {
@@ -55,7 +60,8 @@ export const getStaticProps = async () => {
       categoris:data2,
       topselling: data3,
       speakerImg: speakerdata,
-      arrivalproducts : products 
+      arrivalproducts : products,
+      dealsproducts: dealsData 
     }
   }
 }
