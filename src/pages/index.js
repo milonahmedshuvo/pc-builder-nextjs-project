@@ -1,5 +1,6 @@
 import RootLayout from "@/components/layout/RootLayout"
 import Arrivalhome from "@/components/ui/Arrival/Arrivalhome";
+import Belkin from "@/components/ui/Belkin/Belkin";
 import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
 import Offerproducts from "@/components/ui/Offerproducts/offerproducts";
 import Slider from "@/components/ui/Slider/Slider";
@@ -22,6 +23,7 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts 
         <Speakerhome speakerImg={speakerImg} />
         <Offerproducts />
         <Arrivalhome arrivalproducts={arrivalproducts} />
+        <Belkin></Belkin>
        <Randomproducts prodcuts={prodcuts} />
        <FeatureCategoris categoris={categoris} />
     </div>
