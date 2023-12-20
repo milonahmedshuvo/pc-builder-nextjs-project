@@ -5,6 +5,7 @@ import Collections from "@/components/ui/Collections/Collections";
 import Deals from "@/components/ui/Deals/Dealshome";
 import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
 import Offerproducts from "@/components/ui/Offerproducts/offerproducts";
+import Shop from "@/components/ui/Shop/Shop";
 import Slider from "@/components/ui/Slider/Slider";
 import Speakerhome from "@/components/ui/Speaker/Speakerhome";
 import TopSelling from "@/components/ui/TopSelling/TopSelling";
@@ -28,7 +29,7 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
         <Belkin />
         <Deals dealsproducts={dealsproducts} />
         <Collections />
-        
+        <Shop />
        <Randomproducts prodcuts={prodcuts} />
        <FeatureCategoris categoris={categoris} />
     </div>
