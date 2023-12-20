@@ -1,6 +1,7 @@
 import RootLayout from "@/components/layout/RootLayout"
 import Arrivalhome from "@/components/ui/Arrival/Arrivalhome";
 import Belkin from "@/components/ui/Belkin/Belkin";
+import Collections from "@/components/ui/Collections/Collections";
 import Deals from "@/components/ui/Deals/Dealshome";
 import FeatureCategoris from "@/components/ui/FeatureCategoris/FeatureCategoris";
 import Offerproducts from "@/components/ui/Offerproducts/offerproducts";
@@ -26,6 +27,8 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
         <Arrivalhome arrivalproducts={arrivalproducts} />
         <Belkin />
         <Deals dealsproducts={dealsproducts} />
+        <Collections />
+        
        <Randomproducts prodcuts={prodcuts} />
        <FeatureCategoris categoris={categoris} />
     </div>
