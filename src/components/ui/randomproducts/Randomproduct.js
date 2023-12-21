@@ -21,7 +21,7 @@ const {image, productName, category, price, Status, Rating, discription, _id } =
 
        
          <Link href={`/RandomproDatails/${_id}`}>
-         <button type="button" className='border border-[#72BF44] px-4 rounded  text-[#72BF44] py-1'>Datails</button>
+         <button type="button" className='text-[#F26E21] bg-[#FEF0E8] rubik border border-[#F9BC98] px-4 rounded   py-1'>Datails</button>
          </Link>
 
         </div>

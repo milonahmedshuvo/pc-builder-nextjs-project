@@ -46,12 +46,12 @@ const Slider = () => {
         {/* second div  */}
         <div className=" w-full md:w-1/4  flex flex-col gap-3">
           {/* item 1  */}
-          <div className="bg-[#FFE8A1] py-2 lg:py-5  ">
+          <div className="bg-[#e68751] bg-opacity-100 py-2 lg:py-5  ">
             <div className=" mx-10 m-auto">
-              <p className="text-black font-medium text-lg text-center">
+              <p className="text-white font-medium text-lg text-center">
                 Compare Products
               </p>
-              <p className="text-[#9c9168] text-sm text-center">
+              <p className="text-white text-sm text-center">
                 Choose Two Products to Compare
               </p>
 
@@ -77,7 +77,7 @@ const Slider = () => {
 
               <button
                 type="button"
-                className="text-[#72BF44] md:border-[2px] lg:border-[3px] rounded mt-4 lg:mt-6 border-[#72BF44] w-full py-1 font-normal lg:font-semibold "
+                className="text-white md:border-[2px] lg:border-[3px] rounded mt-4 lg:mt-6 border-[#F9BC98] w-full py-1 font-normal lg:font-semibold "
               >
                 {" "}
                 View Comparison

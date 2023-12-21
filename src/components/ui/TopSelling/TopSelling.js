@@ -45,7 +45,7 @@ const TopSelling = ({ topselling }) => {
 
 
 
-              <Link href={`/topselling/${product._id}`}  className="text-[#F26E21] bg-[#FEF0E8] border border-[#F9BC98] rounded py-3 px-1 font-semibold md:text-sm lg:text-lg  text-base text-center " >
+              <Link href={`/topselling/${product._id}`}  className="text-[#F26E21] bg-[#FEF0E8]  border border-[#F9BC98] rounded py-3 px-1 font-semibold md:text-sm lg:text-lg  text-base text-center " >
               <button
                 type="button">
                 Buy now

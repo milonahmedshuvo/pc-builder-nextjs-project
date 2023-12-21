@@ -9,6 +9,7 @@ const SpeakerProductDatails = ({speakerProducts}) => {
     // console.log(speakerProducts)
 
 
+
   return (
     <div>
         
@@ -58,6 +59,7 @@ const SpeakerProductDatails = ({speakerProducts}) => {
     </div>
   )
 }
+
 
 export default SpeakerProductDatails;
 

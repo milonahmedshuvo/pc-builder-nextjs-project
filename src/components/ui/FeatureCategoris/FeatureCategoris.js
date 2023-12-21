@@ -9,8 +9,8 @@ const FeatureCategoris = ({categoris}) => {
 
   return (
     <div className='my-20'>
-        <h4 className='text-center font-semibold font-sans text-xl'>Featured Category</h4>  
-        <p className='text-center mt-1'>Get Your Desired Product from Featured Category!</p>
+        <h4 className='text-center font-medium font-sans rubik text-xl'>Featured Category</h4>  
+        <p className='text-center mt-1 rubik'>Get Your Desired Product from Featured Category!</p>
 
 
         <div className="grid grid-cols-6 gap-6 mt-12">

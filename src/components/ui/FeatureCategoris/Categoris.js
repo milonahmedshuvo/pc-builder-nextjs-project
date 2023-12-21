@@ -8,9 +8,9 @@ const Categoris = ({ categori }) => {
   return (
     <div>
       <Link href={`/categori/${_id}`}>
-        <div>
+        <div >
           <img className="w-20 h-20 mx-auto" src={images} alt="" />
-          <p className="text-center mt-2">{name}</p>
+          <p className="text-center mt-2 rubik  text-[#6B7280] text-lg">{name}</p>
         </div>
       </Link>
     </div>

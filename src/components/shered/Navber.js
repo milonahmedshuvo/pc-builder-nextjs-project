@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Navber = () => {
+
+
+
   return (
     <div className=" bg-[#FFFFFF] shadow-sm flex  justify-between items-center py-4">
       <div>
@@ -14,8 +17,17 @@ const Navber = () => {
         />
       </div>
 
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         {/* dropdown manu  */}
+
+
+        
+        <Link href='/Allproducts/Allproducts'>
+            <button>Products</button>
+        </Link>
+
+
+ 
         <div className="right-manu  relative mx-2 md:mx-6">
           <button type="button" className="manu-btn">
             catagory
@@ -50,3 +62,4 @@ const Navber = () => {
 };
 
 export default Navber;
+
