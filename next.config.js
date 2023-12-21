@@ -4,3 +4,12 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+
+
+// code extends 
+// module.exports = {
+//   images: {
+//     domains: ['gadgetandgear.com'],
+//   },
+// };
