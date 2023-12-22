@@ -1,3 +1,4 @@
+import RootLayout from '@/components/layout/RootLayout';
 import React from 'react'
 
 
@@ -10,3 +11,7 @@ const Cart = () => {
 }
 
 export default Cart;
+
+Cart.getLayout = function getLayout ( page ) {
+    return <RootLayout> { page } </RootLayout>
+}
