@@ -1,12 +1,27 @@
 import RootLayout from '@/components/layout/RootLayout';
 import ProductCard from '@/components/ui/Speaker/ProductCard';
 import { data } from 'autoprefixer';
-import React from 'react'
+import React, { useState } from 'react'
+// import MultiRangeSlider from "multi-range-slider-react";
+// import '@/styles/globals.css'
+
+
+
+
 
 const SpeakerProductDatails = ({speakerProducts}) => {
     const { products} = speakerProducts;
     // console.log( " ddddddddd", products)
     // console.log(speakerProducts)
+
+  const [isActive, setIsActive] = useState(false);
+
+  const handleToggle = () => {
+    setIsActive(!isActive);
+  };
+
+
+
 
 
 
@@ -23,6 +38,25 @@ const SpeakerProductDatails = ({speakerProducts}) => {
 
           <input type="checkbox" class="toggle" checked />
           
+          <button
+          onClick={handleToggle}
+          className={`bg-red-500 pr-7 py-1 px-1 rounded-full focus:outline-none
+          }`}
+        >
+          <span
+            className={`block w-6 h-6 rounded-full bg-white shadow-md transform transition-transform ${
+              isActive ? "translate-x-full" : ""
+            }`}
+          >
+            {/* {isActive ? (
+              <Image src={icon2} width={30} height={30} alt=""></Image>
+            ) : (
+              <Image src={icon3} width={30} height={30} alt=""></Image>
+            )} */}
+          </span>
+        </button>
+
+
 
             {/* <Switch id="in-stock" /> */}
             {/* <Label htmlFor="in-stock">In stock</Label> */}
@@ -33,6 +67,25 @@ const SpeakerProductDatails = ({speakerProducts}) => {
           <div className="max-w-xl">
 
           <input type="range" min={0} max="100" value="40" className="range range-primary" />
+
+
+             {/* new program add  */}
+          {/* <div className="my-5">
+              <MultiRangeSlider
+                min={0}
+                max={500}
+                step={1}
+                ruler={false}
+                label={false}
+                range={range}
+                onChange={handleRangeChange}
+              />
+
+              <div>
+                Price: {minValue} CFA - {maxValue} CFA
+              </div>
+            </div> */}
+
 
          
             {/* <Slider

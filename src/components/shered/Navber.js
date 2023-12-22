@@ -23,16 +23,16 @@ const Navber = () => {
 
         
         <Link href='/Allproducts/Allproducts'>
-            <button>Products</button>
+            <button className="rubik hover:text-[#F26E21]">PRODUCTS</button>
         </Link>
 
 
  
-        <div className="right-manu  relative mx-2 md:mx-6">
-          <button type="button" className="manu-btn">
-            catagory
+        <div className="right-manu  relative mx-2 md:mx-6 hover:text-[#F26E21]">
+          <button type="button" className="manu-btn hover:text-[#F26E21] rubik">
+           CATEGORY
           </button>
-          <div className="drowpdown z-10 py-4 border-t-4 border-green-400 shadow-xl absolute hidden min-w-[179px] ">
+          <div className="drowpdown z-10 py-4 border-t-4 border-[#F26E21] shadow-xl absolute hidden min-w-[179px] ">
             <a href="" className="block">
               CPU / Processor
             </a>
@@ -48,10 +48,14 @@ const Navber = () => {
           </div>
         </div>
 
+        <Link href='/Cart/Cart'>
+            <button className="rubik hover:text-[#F26E21]">CART</button>
+        </Link>
+
         {/* button  */}
         <Link href="/pc-builder/PCBuilder" >
         <div className=" mx-1 md:ml-4 ">
-          <button className="bg-[#72BF44] text-white font-normal md:font-semibold py-1 px-2 md:px-6 rounded">
+          <button className="bg-[#F26E21] text-white font-normal md:font-semibold py-1 px-2 md:px-6 rounded">
             PC Builder
           </button>
         </div>
