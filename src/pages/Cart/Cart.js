@@ -3,10 +3,35 @@ import React from 'react'
 
 
 const Cart = () => {
+
+    
   return (
+
     <div>
        <h1>cart page</h1>
-    </div>
+
+
+       <div>
+           {/* item 1 */}
+            <div>
+                 {/* img */}
+                  <div>
+                    <img src="" alt="" />
+                  </div>
+
+                  {/* titile and price  */}
+                  <div>
+                    <p>Smart watch</p>
+                    <p>price </p>
+                  </div>
+
+                  {/* update products  */}
+                  <div>
+                    <p>increase</p>
+                  </div>
+            </div>
+       </div>
+    </div> 
   )
 }
 
