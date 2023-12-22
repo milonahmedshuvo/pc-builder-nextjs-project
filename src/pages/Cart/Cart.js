@@ -13,20 +13,20 @@ const Cart = () => {
 
        <div>
            {/* item 1 */}
-            <div>
+            <div className='grid grid-cols-3 gap-4'>
                  {/* img */}
-                  <div>
+                  <div className='border '>
                     <img src="" alt="" />
                   </div>
 
                   {/* titile and price  */}
-                  <div>
+                  <div className='border '>
                     <p>Smart watch</p>
                     <p>price </p>
                   </div>
 
                   {/* update products  */}
-                  <div>
+                  <div className='border '>
                     <p>increase</p>
                   </div>
             </div>
