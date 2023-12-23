@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import logo from "../../image/Tech.png"
 
 const Navber = () => {
 
@@ -10,11 +11,13 @@ const Navber = () => {
     <div className=" bg-[#FFFFFF] shadow-sm flex  justify-between items-center py-4">
       <div>
         <Image
-          src="https://www.ryanscomputers.com/assets/images/ryans-logo.svg"
-          width={100}
-          height={500}
+          // src="https://www.ryanscomputers.com/assets/images/ryans-logo.svg"
+          src={logo}
+          width={200}
+          height={400}
           alt="Picture of the author"
         />
+        
       </div>
 
       <div className="flex justify-between items-center">
