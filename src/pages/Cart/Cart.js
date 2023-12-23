@@ -1,6 +1,6 @@
 import RootLayout from '@/components/layout/RootLayout';
 import React from 'react'
-
+import { FaBeer } from 'react-icons/fa';
 
 const Cart = () => {
 
@@ -28,6 +28,7 @@ const Cart = () => {
                   {/* update products  */}
                   <div className='border '>
                     <p>increase</p>
+                    <FaBeer></FaBeer>
                   </div>
             </div>
        </div>
