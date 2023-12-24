@@ -1,10 +1,14 @@
 import RootLayout from "@/components/layout/RootLayout";
+import { addToProduct } from "@/redux/features/cart/cartSlice";
 import Link from "next/link";
 import React from "react";
+import { useDispatch } from "react-redux";
 
 const topsellingDatails = ({ products }) => {
-  // console.log(products)
   const { images, title, balance, logo, discription } = products;
+  const dispatch = useDispatch()
+
+
 
   return (
     <div className="flex flex-col md:flex-row justify-center mt-10 mb-20">
@@ -25,12 +29,13 @@ const topsellingDatails = ({ products }) => {
         <p className="text-sm  md:text-md font-semibold mt-4 text-[#3E3E3E]">No return applicable if the seal is broken.</p>
 
         <div className="grid grid-cols-2 gap-1 md:gap-2 mt-10 ">
-          <Link
-            href="/"
-            className="bg-[#3197E9] text-white border py-3 px-1   font-semibold text-sm md:text-sm lg:text-md   text-center "
-          >
-            <button type="button">ADD TO CART</button>
-          </Link>
+          
+            <button className="bg-[#3197E9] text-white border py-3 px-1   font-semibold text-sm md:text-sm lg:text-md   text-center "
+            onClick={() => dispatch(addToProduct(products))}
+             type="button">ADD TO CART</button>
+          
+
+          
 
           <Link
             href="/"

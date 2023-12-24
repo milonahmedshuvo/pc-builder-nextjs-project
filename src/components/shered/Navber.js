@@ -10,6 +10,8 @@ const Navber = () => {
   return (
     <div className=" bg-[#FFFFFF] shadow-sm flex  justify-between items-center py-4">
       <div>
+        
+        <Link href='/' > 
         <Image
           // src="https://www.ryanscomputers.com/assets/images/ryans-logo.svg"
           src={logo}
@@ -17,7 +19,7 @@ const Navber = () => {
           height={400}
           alt="Picture of the author"
         />
-        
+        </Link>
       </div>
 
       <div className="flex justify-between items-center">
