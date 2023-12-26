@@ -13,11 +13,21 @@ const cartSlice = createSlice({
         if(exsisting){
             exsisting.quantity = exsisting.quantity + 1 
         }else{
-            state.products.push( {...action.payload, quantity: 1} )
+            state.products.push( {...action.payload, quantity: 1 } )
         }
         
        },
 
+       decreaseProduct: (state, action) => {
+        const exsisting = state.products.find((product) => product._id === action.payload._id )
+        if(exsisting && exsisting.quantity > 1 ){
+            exsisting.quantity = exsisting.quantity - 1
+        }  
+       },
+
+       removeProduct: (state, action ) => {
+        state.products = state.products.filter((product) => product._id !== action.payload._id )
+       }
 
 
 
@@ -26,5 +36,5 @@ const cartSlice = createSlice({
 
 
 
-export const { addToProduct } = cartSlice.actions 
-export default cartSlice.reducer
+export const { addToProduct, decreaseProduct, removeProduct } = cartSlice.actions; 
+export default cartSlice.reducer;

@@ -1,17 +1,18 @@
 import RootLayout from '@/components/layout/RootLayout';
 import ProductCard from '@/components/ui/Speaker/ProductCard';
+import { addToProduct, decreaseProduct, removeProduct } from '@/redux/features/cart/cartSlice';
 import Link from 'next/link';
 import React from 'react'
 import { FaPlus, FaMinus } from "react-icons/fa";
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 
 
 const Cart = () => {
       const { products } = useSelector((state) => state.cart)      
       console.log("redux", products )
-      const { tk, images, title, quantity } = products;
-
+      const dispatch = useDispatch()
+  
 
 
 
@@ -64,7 +65,7 @@ const Cart = () => {
                <p className='text-md my-1 text-[#3E3E3E] lato font-semibold hover:text-[#F79637]'>{product.title}</p>
                <p className='text-sm my-1 text-[#3E3E3E] lato' >Color : Silver</p>
                <p className='text-sm my-1 text-[#3E3E3E] lato' >Size : 44mm</p>
-               <button className='text-sm text-[#3E3E3E] lato hover:text-[#F79637]'>Remove</button>
+               <button className='text-sm text-[#3E3E3E] lato hover:text-[#F79637]' onClick={ ()=> dispatch( removeProduct(product) )} >Remove</button>
              </div>
 
 
@@ -77,9 +78,9 @@ const Cart = () => {
 
 
                   <div className='border py-3 px-2 w-28 md:w-40 flex justify-between items-center'>
-                     <button type="button" className='text-lg' > <FaPlus /> </button>
-                      <p className='text-lg' > {product.quantity} </p>
-                     <button type="button" className='text-lg' > <FaMinus /> </button>
+                     <button type="button" className='text-lg text-[#3E3E3E]' onClick={() => dispatch( addToProduct(product) ) } > <FaPlus /> </button>
+                      <p className='text-lg text-[#3E3E3E]' > {product.quantity} </p>
+                     <button type="button" className='text-lg text-[#3E3E3E]' onClick={ () => dispatch( decreaseProduct(product) ) }> <FaMinus /> </button>
                   </div>
 
 
