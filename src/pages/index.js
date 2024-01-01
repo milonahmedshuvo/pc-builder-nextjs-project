@@ -21,6 +21,9 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
   return (
     <div className="">
        <Slider></Slider>
+
+       <Randomproducts prodcuts={prodcuts} />
+       <FeatureCategoris categoris={categoris} />
        
         <TopSelling topselling={topselling} />
         <Speakerhome speakerImg={speakerImg} />
@@ -30,8 +33,8 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
         <Deals dealsproducts={dealsproducts} />
         <Collections />
         <Shop />
-       <Randomproducts prodcuts={prodcuts} />
-       <FeatureCategoris categoris={categoris} />
+       {/* <Randomproducts prodcuts={prodcuts} />
+       <FeatureCategoris categoris={categoris} /> */}
     </div>
   )
 }

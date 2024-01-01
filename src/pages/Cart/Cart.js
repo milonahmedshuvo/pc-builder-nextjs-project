@@ -39,7 +39,7 @@ const Cart = () => {
             
                   <div className='w-1/2 flex justify-between items-center'>           
                        <p className='lato text-sm tracking-wide text-[#3E3E3E] font-bold hidden md:block '>QUANTITY</p>
-                        <p className='lato text-sm tracking-wide text-[#3E3E3E] font-bold hidden md:block' >OFFER PRICE</p>
+                        <p className='lato text-sm tracking-wide text-[#3E3E3E] font-bold hidden md:block ml-10' >OFFER PRICE</p>
                          <p className='lato text-sm tracking-wide text-[#3E3E3E] font-bold hidden md:block' > SUBTOTAL</p>
                   </div>
 
@@ -77,7 +77,7 @@ const Cart = () => {
              <div className=' w-full md:w-1/2 flex justify-between items-center '>
 
 
-                  <div className='border py-3 px-2 w-28 md:w-40 flex justify-between items-center'>
+                  <div className='border py-3 px-2 w-28 md:w-32 flex justify-between items-center'>
                      <button type="button" className='text-lg text-[#3E3E3E]' onClick={() => dispatch( addToProduct(product) ) } > <FaPlus /> </button>
                       <p className='text-lg text-[#3E3E3E]' > {product.quantity} </p>
                      <button type="button" className='text-lg text-[#3E3E3E]' onClick={ () => dispatch( decreaseProduct(product) ) }> <FaMinus /> </button>
