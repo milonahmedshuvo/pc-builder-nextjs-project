@@ -1,9 +1,20 @@
 import RootLayout from "@/components/layout/RootLayout";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 const PCBuilderPage = ({ categoriImage }) => {
   console.log(categoriImage);
   // const {images, name, products} = categoriImage;
+  const {  pcproducts } = useSelector((state) => state.cart)
+
+  console.log("pc", pcproducts)
+
+  
+  
+  
+
+
+  
 
   return (
     <div className=" w-full md:w-10/12 lg:w-9/12 mx-auto my-24  ">
@@ -31,14 +42,77 @@ const PCBuilderPage = ({ categoriImage }) => {
         </div>
       </div>
 
-      {/* start categori dainamic data show  */}
+
+
+
+
+     
       <div className="border-t-2">
-        {categoriImage.map((categori) => (
+
+      {
+        pcproducts && <div className="mt-5"> 
+            {
+              pcproducts.map((product) => <div className="flex justify-between items-center border px-2 md:px-5 py-2 my-2">
+                
+                 <div className="flex">
+
+
+                  <div className="w-full">
+                    <img className="h-20 w-full" src={product.image} alt="" />
+                  </div>
+
+                  <div>
+                    <p> {product.productName}</p>
+                    <p> {product.category} </p>
+                  </div>
+
+                 </div>
+
+
+                 {/* secound div  */}
+                 <div>
+                  <p className="text-center">{product.price}</p>
+                 </div>
+                
+                
+                
+                 </div> )
+            }
+        </div>
+      }
+
+        
+
+
+
+
+
+
+
+
+
+        {/* start categori dainamic data show  */}
+
+        {categoriImage?.map((categori, index) => (
+
+
           <div key={categori._id} className="flex justify-between items-center">
             <div className="flex my-10 p-4">
               <img className="w-[100px]" src={categori.images} alt="" />
               <p className="mt-2 ml-8 text-lg">{categori.name}</p>
             </div>
+            
+           
+
+
+            
+            
+             
+           
+
+
+
+
 
             <div>
               <Link href={`/pc-builder/${categori._id}`}>
@@ -60,6 +134,7 @@ export default PCBuilderPage;
 PCBuilderPage.getLayout = function getLayout(page) {
   return <RootLayout> {page} </RootLayout>;
 };
+
 
 export const getServerSideProps = async () => {
   const res = await fetch("http://localhost:5000/categoris");

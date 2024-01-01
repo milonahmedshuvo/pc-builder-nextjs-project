@@ -1,18 +1,78 @@
+import RootLayout from "@/components/layout/RootLayout";
+import { pcproductsAdd } from "@/redux/features/cart/cartSlice";
+import Link from "next/link";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
 
 
-const PCBuilderCategori = ({products}) => {
-console.log(products)
+const ThreeProductPage = ({products}) => {
+const { prodcuts } = products;
+console.log(prodcuts)
+const dispatch = useDispatch()
+
+
+
+
+
+// const [isButtonDisabled, setButtonDisabled] = useState(false);
+
+  
+//   const handleButtonClick = (product) => {
+//     console.log("prooooooo", product)
+//     setButtonDisabled(true);
+//     dispatch(pcproductsAdd(product))
+//   };
 
 
 
   return (
     <div>
-       <h1>pc builder categori pc builder page dainamic products  </h1>  
+        
+
+       <div>
+           {
+            prodcuts.map( (product, i) => ( <div className="flex justify-between items-center my-10 shadow-md  px-1 md:px-3 lg:px-7 xl:px-10    py-1 md:py-3 lg:py-7 xl:py-10  " key={i} > 
+                
+                <div className="flex items-center ">
+                    <div className="w-1/4 ">
+                    <img  className="" src={product.image} alt="" />
+                    </div>
+
+                    <div>
+                      <p className="text-xl font-medium my-2">{product.productName}</p>
+                        <ul>
+                          {
+                            product.keyFeatures.map((list, i) => <li key={i}  className="my-1"> {list} </li>)
+                          }
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+                {/* button and price  */}
+                <div >
+
+                  <Link href="/pc-builder/PCBuilder" >
+                  <button onClick={() => dispatch(pcproductsAdd(product))  }   className="bg-[#F26E21] px-5 py-2 text-white font-semibold text-xl my-2 " type="button"> Add </button>
+                   </Link>
+                
+                 
+                  <p className="text-xl mt-4"> {product.price} </p>
+                </div>
+
+            </div> ) )
+           }
+       </div>
     </div>
   )
 }
 
-export default PCBuilderCategori;
+export default ThreeProductPage;
+ThreeProductPage.getLayout = function getLayout (page) {
+  return <RootLayout> {page} </RootLayout>
+}
 
 
 export const getServerSideProps = async (context) => {

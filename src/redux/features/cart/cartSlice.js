@@ -1,7 +1,8 @@
 const { createSlice } = require("@reduxjs/toolkit");
 
 const initialState = {
-    products : [ ]
+    products : [ ],
+    pcproducts: [ ]
 }
 
 const cartSlice = createSlice({
@@ -27,8 +28,22 @@ const cartSlice = createSlice({
 
        removeProduct: (state, action ) => {
         state.products = state.products.filter((product) => product._id !== action.payload._id )
-       }
+       },
 
+
+
+
+
+
+
+    //    pc builder button inside three products 
+    pcproductsAdd : (state, action) => {
+        const exsite =state.pcproducts.find((product)=> product.id !== action.payload.id)     
+                state.pcproducts.push(action.payload)                        
+    }
+
+
+    
 
 
     }
@@ -36,5 +51,5 @@ const cartSlice = createSlice({
 
 
 
-export const { addToProduct, decreaseProduct, removeProduct } = cartSlice.actions; 
+export const { addToProduct, decreaseProduct, removeProduct, pcproductsAdd  } = cartSlice.actions; 
 export default cartSlice.reducer;
