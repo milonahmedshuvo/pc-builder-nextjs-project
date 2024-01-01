@@ -27,7 +27,7 @@ const Navber = () => {
 
 
         
-        <Link href='/Allproducts/Allproducts'>
+        <Link href='/Allproducts/Allproducts' className="hidden md:block">
             <button className="rubik hover:text-[#F26E21]">PRODUCTS</button>
         </Link>
 

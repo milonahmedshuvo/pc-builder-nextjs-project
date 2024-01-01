@@ -29,7 +29,7 @@ const CategoriProductDatails = ({datails}) => {
     
                 
     
-                <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2 mt-2 lg:mt-0 border">
+                <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666] text-center mx-2  lg:mt-0 border">
                   Rating:
                   <span className="text-black font-semibold"> {product.Rating} </span>{" "}
                 </p>
@@ -40,8 +40,8 @@ const CategoriProductDatails = ({datails}) => {
                 </p>
 
                 
-                <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666]  text-center mx-2 lg:mt-4 border">
-                  Category:<span className="text-black font-semibold"> {product.category} </span>{" "}
+                <p className="bg-[#F5F6FC] py-1 rounded-full text-[#666]  text-center mx-2 mt-2 lg:mt-4 border">
+                  Category:<span className="text-black text-sm font-semibold"> {product.category} </span>{" "}
                 </p>
 
 

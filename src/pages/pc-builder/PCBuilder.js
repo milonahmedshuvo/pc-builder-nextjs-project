@@ -17,15 +17,18 @@ const PCBuilderPage = ({ categoriImage }) => {
   
 
   return (
-    <div className=" w-full md:w-10/12 lg:w-9/12 mx-auto my-24  ">
+    <div className=" w-full md:w-10/12 lg:w-9/12 mx-auto my-24  px-1 ">
       <div className=" flex justify-between items-center pb-7 ">
         <div>
-          <h3 className="text-lg">
+          <h3 className="text-lg hidden lg:block">
             PC Builder - Build Your Own Computer - Ryans
           </h3>
-          <div className="flex justify-start items-center">
+
+          <div className="hidden lg:block">
+          <div className="flex justify-start items-center ">
             <input type="checkbox" name="" id="" className="mr-2" />
             <p>Hide Unconfigured Components</p>
+          </div>
           </div>
         </div>
 
@@ -52,7 +55,7 @@ const PCBuilderPage = ({ categoriImage }) => {
       {
         pcproducts && <div className="mt-5"> 
             {
-              pcproducts.map((product) => <div className="flex justify-between items-center border px-2 md:px-5 py-2 my-2">
+              pcproducts.map((product) => <div className="flex justify-between items-center border px-1 md:px-5 py-2 my-2">
                 
                  <div className="flex">
 
@@ -77,6 +80,11 @@ const PCBuilderPage = ({ categoriImage }) => {
                 
                 
                  </div> )
+            }
+
+
+            {
+              pcproducts.length >= 18 && <button className="bg-[#F26E21] px-6 py-1 text-white mt-2  "> Complate build </button>
             }
         </div>
       }

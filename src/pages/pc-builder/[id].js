@@ -31,18 +31,18 @@ const dispatch = useDispatch()
 
        <div>
            {
-            prodcuts.map( (product, i) => ( <div className="flex justify-between items-center my-10 shadow-md  px-1 md:px-3 lg:px-7 xl:px-10    py-1 md:py-3 lg:py-7 xl:py-10  " key={i} > 
+            prodcuts.map( (product, i) => ( <div className="flex  flex-col lg:flex-row justify-between items-center my-10 shadow-md  px-1 md:px-3 lg:px-7 xl:px-10 py-10 md:py-3 lg:py-7 xl:py-10  " key={i} > 
                 
-                <div className="flex items-center ">
-                    <div className="w-1/4 ">
+                <div className="flex flex-col md:flex-row items-center ">
+                    <div className="w-full lg:w-1/4 flex justify-center ">
                     <img  className="" src={product.image} alt="" />
                     </div>
 
                     <div>
-                      <p className="text-xl font-medium my-2">{product.productName}</p>
+                      <p className="lg:text-xl text-lg font-medium my-2">{product.productName}</p>
                         <ul>
                           {
-                            product.keyFeatures.map((list, i) => <li key={i}  className="my-1"> {list} </li>)
+                            product.keyFeatures.map((list, i) => <li key={i}  className=" lg:my-1 text-sm"> {list} </li>)
                           }
                         </ul>
                     </div>
@@ -52,7 +52,7 @@ const dispatch = useDispatch()
 
 
                 {/* button and price  */}
-                <div >
+                <div className="mt-10 lg:mt-0" >
 
                   <Link href="/pc-builder/PCBuilder" >
                   <button onClick={() => dispatch(pcproductsAdd(product))  }   className="bg-[#F26E21] px-5 py-2 text-white font-semibold text-xl my-2 " type="button"> Add </button>
