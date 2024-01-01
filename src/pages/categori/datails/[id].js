@@ -1,5 +1,6 @@
 
 
+
 const CategoriProductDatails = ({datails}) => {
   
 
@@ -71,6 +72,7 @@ const CategoriProductDatails = ({datails}) => {
     
               <button
                 type="button"
+                
                 className="text-white text-center bg-[#2C3A96] px-6 py-1 font-semibold  text-md mt-10"
               >
                 Buy Now

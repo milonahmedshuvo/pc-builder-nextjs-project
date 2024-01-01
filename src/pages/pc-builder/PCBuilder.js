@@ -1,5 +1,6 @@
 import RootLayout from "@/components/layout/RootLayout";
 import Link from "next/link";
+import toast from "react-hot-toast";
 import { useSelector } from "react-redux";
 
 const PCBuilderPage = ({ categoriImage }) => {
@@ -84,7 +85,7 @@ const PCBuilderPage = ({ categoriImage }) => {
 
 
             {
-              pcproducts.length >= 18 && <button className="bg-[#F26E21] px-6 py-1 text-white mt-2  "> Complate build </button>
+              pcproducts.length >= 18 && <button onClick={()=> toast.success('Successfully all product add!')} className="bg-[#F26E21] px-6 py-1 text-white mt-2  "> Complate build </button>
             }
         </div>
       }
