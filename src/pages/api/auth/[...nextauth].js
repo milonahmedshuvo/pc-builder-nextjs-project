@@ -19,6 +19,10 @@ export const authOptions = {
 
     // ...add more providers here
   ],
+//   amader login page ta dikabe
+  pages: {
+    signIn: "/login/login"
+  }
 }
 
 export default NextAuth(authOptions)
