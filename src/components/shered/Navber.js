@@ -2,10 +2,15 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../image/Tech.png"
+import { useSession, signIn, signOut } from "next-auth/react"
+
+
 
 const Navber = () => {
-
-
+     const { data:session } = useSession()
+ 
+     console.log("session", session)
+     console.log("user", session?.user)
 
   return (
     <div className=" bg-[#FFFFFF] shadow-sm flex  justify-between items-center py-4">
@@ -57,9 +62,18 @@ const Navber = () => {
             <button className="rubik hover:text-[#F26E21]">CART</button>
         </Link> */}
 
-        <Link href='/login/login' className="hidden md:block">
+         {
+          session?.user? <Link href='' className="hidden md:block">
+          <button className="rubik hover:text-[#F26E21]">LOGOUT</button>
+      </Link> : <Link href='/login/login' className="hidden md:block">
             <button className="rubik hover:text-[#F26E21]">LOGIN</button>
         </Link>
+         }
+        
+
+        {/* <Link href='/login/login' className="hidden md:block">
+            <button className="rubik hover:text-[#F26E21]">LOGIN</button>
+        </Link> */}
 
         {/* button  */}
         <Link href="/pc-builder/PCBuilder" >

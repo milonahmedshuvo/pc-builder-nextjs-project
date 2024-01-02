@@ -1,6 +1,11 @@
 import { FaSquareGithub } from "react-icons/fa6";
 import { AiFillGoogleSquare } from "react-icons/ai";
 import RootLayout from "@/components/layout/RootLayout";
+import { useSession, signIn, signOut } from "next-auth/react"
+
+
+
+
 
 const login = () => {
   return (
@@ -8,7 +13,7 @@ const login = () => {
        <h1 className="text-center my-6 text-2xl" >LOGIN PAGE </h1>
 
        <div className="flex items-center justify-center">
-          <FaSquareGithub className="text-6xl"></FaSquareGithub>
+          <FaSquareGithub onClick={() => signIn("github") } className="text-6xl"></FaSquareGithub>
           <AiFillGoogleSquare className="text-6xl"></AiFillGoogleSquare>
        </div>
     </div>
