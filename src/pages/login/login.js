@@ -13,8 +13,8 @@ const login = () => {
        <h1 className="text-center my-6 text-2xl" >LOGIN PAGE </h1>
 
        <div className="flex items-center justify-center">
-          <FaSquareGithub onClick={() => signIn("github") } className="text-6xl"></FaSquareGithub>
-          <AiFillGoogleSquare className="text-6xl"></AiFillGoogleSquare>
+          <FaSquareGithub onClick={() => signIn("github", { callbackUrl: "http://localhost:3000" }) } className="text-6xl"></FaSquareGithub>
+          <AiFillGoogleSquare onClick={() => signIn("google", { callbackUrl: "http://localhost:3000" }) } className="text-6xl"></AiFillGoogleSquare>
        </div>
     </div>
   )
