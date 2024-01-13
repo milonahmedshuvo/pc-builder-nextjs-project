@@ -4,8 +4,6 @@ import { useRouter } from "next/router"
 
 
 const CategoriProduct = ({ categoriProducts}) => {
-            const router = useRouter()
-            console.log(categoriProducts)
             const { prodcuts } = categoriProducts;
 
 
@@ -21,7 +19,7 @@ const CategoriProduct = ({ categoriProducts}) => {
         <div>
           <img src={product.image} className='w-full h-[300px] px-10'  alt="" />
         </div>
-
+          
         <div className='flex flex-col justify-between  '>
         <p className='hover:text-[#72BF44] text-[20px] my-2'>{product.productName}</p>
         <p className='mb-[2px] text-[18px]'>Category: {product.category}</p>
@@ -48,23 +46,23 @@ const CategoriProduct = ({ categoriProducts}) => {
 export default CategoriProduct;
 
 
-export const getStaticPaths = async () => {
-   const res = await fetch("http://localhost:5000/categoris");
-   const data = await res.json()
+// export const getStaticPaths = async () => {
+//    const res = await fetch("https://shuvotech.vercel.app/categoris");
+//    const data = await res.json()
 
-   const paths = data.map((categori) => ({
-     params: {id: categori._id}
-   }))
+//    const paths = data.map((categori) => ({
+//      params: {id: categori._id}
+//    }))
 
-   return { paths, fallback: true}
-}
+//    return { paths, fallback: true}
+// }
 
 
 
-export const getStaticProps = async  ( context ) => {
+export const getServerSideProps = async  ( context ) => {
   const { params } =context;
  
-  const res = await fetch(`http://localhost:5000/categoris/${params.id}`)
+  const res = await fetch(`https://shuvotech.vercel.app/categoris/${params.id}`)
   const data = await res.json()
 
   return {
@@ -80,3 +78,4 @@ export const getStaticProps = async  ( context ) => {
 CategoriProduct.getLayout = function getLayout (page) {
   return <RootLayout> {page} </RootLayout>
 }
+

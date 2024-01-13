@@ -41,6 +41,7 @@ const Arrivalhome = ({arrivalproducts}) => {
             <div className="grid grid-cols-2 gap-6 md:gap-2 mt-5 ">
 
 
+
                <Link href={`/Arrivalproducts/${product._id}`} className="text-[#3197E9] bg-[#EAF4FD] border border-[#A0CEF4] rounded py-3 px-1 font-semibold md:text-sm lg:text-md  text-base text-center " >
               <button
                 type="button" >

@@ -1,9 +1,9 @@
-import React from 'react'
+
 
 const products = () => {
   return (
     <div>
-      <h1>prodcuddddddddddddd</h1>
+      <h1>Random product datails </h1>
     </div>
   )
 }

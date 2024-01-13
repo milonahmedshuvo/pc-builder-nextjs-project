@@ -103,8 +103,10 @@ const SpeakerProductDatails = ({speakerProducts}) => {
 
 
       <div className=" col-span-12 md:col-span-9 grid grid-col-1 md:grid-cols-3 gap-10 pb-20">
-        {products?.map((product) => (
-          <ProductCard product={product} />
+        {products?.map((product, i ) => (
+          <div key={i}> 
+            <ProductCard product={product} />
+          </div>
         ))}
       </div>
     </div>
@@ -121,10 +123,22 @@ SpeakerProductDatails.getLayout = function getLayout(page) {
 }
 
 
-export const getServerSideProps =async (context) =>{
+export const getStaticPaths = async () => {
+  const res = await fetch("https://shuvotech.vercel.app/spekerfourImg");
+  const products = await res.json();
+
+  const paths = products.map((product) => ({
+    params: { id: product._id },
+  }));
+
+  return { paths, fallback: false };
+};
+
+
+export const getStaticProps =async (context) =>{
     const {id} = context.params 
 
-    const res = await  fetch(`http://localhost:5000/speaker/${id}`)
+    const res = await  fetch(`https://shuvotech.vercel.app/speaker/${id}`)
     const data = await res.json()
 
     return {
@@ -132,5 +146,4 @@ export const getServerSideProps =async (context) =>{
             speakerProducts: data
         }
     }
-
 }

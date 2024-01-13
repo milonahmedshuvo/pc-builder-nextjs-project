@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 const Dealshome = ( {dealsproducts} ) => {
-    console.log("dealsproducts", dealsproducts)
+    
 
     
   return (
@@ -11,7 +11,7 @@ const Dealshome = ( {dealsproducts} ) => {
       
       <div className="hover:shadow-xl duration-150">
         <img
-          src="https://gadgetandgear.com/img/home-new/new-arrival-banner.40d6373a.png"
+          src="https://gadgetandgear.com/img/home-new/deals-banner.af26d3eb.png"
           alt=""
         />
       </div>

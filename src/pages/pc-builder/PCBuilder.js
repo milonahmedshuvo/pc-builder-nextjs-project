@@ -56,7 +56,7 @@ const PCBuilderPage = ({ categoriImage }) => {
       {
         pcproducts && <div className="mt-5"> 
             {
-              pcproducts.map((product) => <div className="flex justify-between items-center border px-1 md:px-5 py-2 my-2">
+              pcproducts.map((product, i) => <div key={i} className="flex justify-between items-center border px-1 md:px-5 py-2 my-2">
                 
                  <div className="flex">
 
@@ -146,7 +146,7 @@ PCBuilderPage.getLayout = function getLayout(page) {
 
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/categoris");
+  const res = await fetch("https://shuvotech.vercel.app/categoris");
   const data = await res.json();
 
   return {

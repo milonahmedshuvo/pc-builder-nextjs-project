@@ -1,11 +1,13 @@
 import ProductCard from "@/components/ui/Speaker/ProductCard"
-import Products from "./products"
+import Products from "./Productsthree"
 import RootLayout from "@/components/layout/RootLayout";
+import Productsthree from "./Productsthree";
 
 
 const Allproducts = ({Allproducts}) => {
 
 
+  
 
 
   return (
@@ -48,8 +50,10 @@ const Allproducts = ({Allproducts}) => {
 
 
   <div className=" col-span-12 md:col-span-9 grid grid-col-1 md:grid-cols-3 gap-10 pb-20">
-    {Allproducts?.map((product) => (
-        <Products product={product} />
+    {Allproducts?.map((product, i) => (
+         <div key={i}>
+          <Productsthree product={product} />
+         </div>
     ))}
   </div>
 </div>
@@ -67,8 +71,8 @@ Allproducts.getLayout = function getLayout (page) {
 
 
 
-export const getServerSideProps = async () => {
-     const res = await fetch("http://localhost:5000/allproducts")
+export const getStaticProps = async () => {
+     const res = await fetch("https://shuvotech.vercel.app/allproducts")
      const data = await res.json()
 
      return {

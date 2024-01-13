@@ -4,9 +4,10 @@ import Link from "next/link";
 import React from "react";
 import { useDispatch } from "react-redux";
 
-const topsellingDatails = ({ products }) => {
-  const { images, title, balance, logo, discription } = products;
+const TopsellingDatails = ({ products }) => {
   const dispatch = useDispatch()
+  const { images, title, balance, logo, discription } = products;
+
 
 
 
@@ -49,13 +50,25 @@ const topsellingDatails = ({ products }) => {
   );
 };
 
-export default topsellingDatails;
+export default TopsellingDatails;
 
-export const getServerSideProps = async (context) => {
+
+export const getStaticPaths = async () => {
+  const res = await fetch("https://shuvotech.vercel.app/topSellingProducts");
+  const products = await res.json();
+
+  const paths = products.map((product) => ({
+    params: { id: product._id },
+  }));
+
+  return { paths, fallback: false };
+};
+
+export const getStaticProps = async (context) => {
   const { id } = context.params;
   console.log(id);
 
-  const res = await fetch(`http://localhost:5000/topsellingDainamic/${id}`);
+  const res = await fetch(`https://shuvotech.vercel.app/topsellingDainamic/${id}`);
   const data = await res.json();
 
   return {
@@ -65,6 +78,6 @@ export const getServerSideProps = async (context) => {
   };
 };
 
-topsellingDatails.getLayout = function getLayout(page) {
+TopsellingDatails.getLayout = function getLayout(page) {
   return <RootLayout> {page} </RootLayout>;
 };

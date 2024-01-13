@@ -22,8 +22,8 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
     <div className="">
        <Slider></Slider>
 
-       <Randomproducts prodcuts={prodcuts} />
-       <FeatureCategoris categoris={categoris} />
+       {/* <Randomproducts prodcuts={prodcuts} />
+       <FeatureCategoris categoris={categoris} /> */}
        
         <TopSelling topselling={topselling} />
         <Speakerhome speakerImg={speakerImg} />
@@ -33,31 +33,31 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
         <Deals dealsproducts={dealsproducts} />
         <Collections />
         <Shop />
-       {/* <Randomproducts prodcuts={prodcuts} />
-       <FeatureCategoris categoris={categoris} /> */}
+       <Randomproducts prodcuts={prodcuts} />
+       <FeatureCategoris categoris={categoris} />
     </div>
   )
 }
 
 export default HomePage;
 
-export const getStaticProps = async () => {
-  const res1 = await fetch("http://localhost:5000/products")
+export const getStaticProps  = async () => {
+  const res1 = await fetch("https://shuvotech.vercel.app/products")
   const data = await res1.json()
   
-  const res2 = await fetch("http://localhost:5000/categoris")
+  const res2 = await fetch("https://shuvotech.vercel.app/categoris")
   const data2 = await res2.json() 
 
-  const res3 = await fetch("http://localhost:5000/topSellingProducts")
+  const res3 = await fetch("https://shuvotech.vercel.app/topSellingProducts")
   const data3 = await res3.json()
 
-  const res = await fetch("http://localhost:5000/spekerfourImg")
+  const res = await fetch("https://shuvotech.vercel.app/spekerfourImg")
   const speakerdata = await res.json()
 
-  const resArri = await fetch("http://localhost:5000/arrivalproducts")
+  const resArri = await fetch("https://shuvotech.vercel.app/arrivalproducts")
   const products = await resArri.json()
 
-  const resDeals = await fetch("http://localhost:5000/dealsproducts")
+  const resDeals = await fetch("https://shuvotech.vercel.app/dealsproducts")
   const dealsData = await resDeals.json()
   
 
@@ -72,6 +72,7 @@ export const getStaticProps = async () => {
     }
   }
 }
+
 
 
 

@@ -1,3 +1,4 @@
+import RootLayout from "@/components/layout/RootLayout";
 import Link from "next/link";
 
 
@@ -58,10 +59,35 @@ const DealsProductDatails = ( {product} ) => {
 
 export default DealsProductDatails;
 
+DealsProductDatails.getLayout = function getLayout ( page ){
+ return <RootLayout> {page} </RootLayout>
+}
 
-export const getServerSideProps = async (context) => {
-    const {dealsid} = context.params
-     const res =await fetch(`http://localhost:5000/dealsproducts/${dealsid}`)
+// export const getStaticPaths = async () => {
+//   const res = await fetch("https://shuvotech.vercel.app/dealsproducts")
+//   const products = await res.json()
+
+//   const paths = products.map((product) => ({
+//     params: { id: product._id }
+//   }))
+
+//   return { paths, fallback: true }
+// }
+
+export const getStaticPaths = async () => {
+  const res = await fetch("https://shuvotech.vercel.app/dealsproducts");
+  const products = await res.json();
+
+  const paths = products.map((product) => ({
+    params: { id: product._id },
+  }));
+
+  return { paths, fallback: false };
+};
+
+export const getStaticProps = async (context) => {
+    const {id} = context.params
+     const res =await fetch(`https://shuvotech.vercel.app/dealsproducts/${id}`)
      const data = await res.json()
 
      return {

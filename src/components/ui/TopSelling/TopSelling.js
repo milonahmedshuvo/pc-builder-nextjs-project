@@ -1,7 +1,9 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const TopSelling = ({ topselling }) => {
-  console.log("topselling/", topselling);
+  const router = useRouter()
+
 
   return (
     <div className="mt-16 mb-10">
@@ -46,10 +48,13 @@ const TopSelling = ({ topselling }) => {
 
 
               <Link href={`/topselling/${product._id}`}  className="text-[#F26E21] bg-[#FEF0E8]  border border-[#F9BC98] rounded py-3 px-1 font-semibold md:text-sm lg:text-lg  text-base text-center " >
+
               <button
+                
                 type="button">
                 Buy now
               </button>
+
               </Link>
 
 
@@ -66,7 +71,7 @@ const TopSelling = ({ topselling }) => {
 export default TopSelling;
 
 // export const getStaticProps = async () => {
-//   const res = await fetch("http://localhost:5000/topSellingProducts")
+//   const res = await fetch("https://shuvotech.vercel.app/topSellingProducts")
 //   const data = await res.json()
 
 //   console.log(data)

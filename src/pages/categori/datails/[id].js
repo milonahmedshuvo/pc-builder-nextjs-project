@@ -1,3 +1,4 @@
+import RootLayout from "@/components/layout/RootLayout";
 
 
 
@@ -8,7 +9,7 @@ const CategoriProductDatails = ({datails}) => {
 
   
   return (
-    <div>
+    <div className="my-20">
         
 
         {
@@ -89,11 +90,14 @@ const CategoriProductDatails = ({datails}) => {
 
 export default CategoriProductDatails;
 
+CategoriProductDatails.getLayout = function getLayout (page) {
+  return <RootLayout>  {page} </RootLayout>
+}
 
 
 export const getServerSideProps = async (context) => {
       const { id } = context.params
-      const res = await fetch(`http://localhost:5000/ag/${id}`)
+      const res = await fetch(`https://shuvotech.vercel.app/ag/${id}`)
       const data = await res.json()
 
       return {
@@ -102,6 +106,7 @@ export const getServerSideProps = async (context) => {
         }
       }
 }
+
 
 
 

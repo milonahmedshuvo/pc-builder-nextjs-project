@@ -1,10 +1,10 @@
 import RootLayout from "@/components/layout/RootLayout";
-import { useRouter } from "next/router";
+
 
 const RandomProductDatails = ({ product }) => {
-  const router = useRouter();
-  const id = router.query.id;
-  console.log("product:", product);
+
+
+  
 
   const {
     image,
@@ -17,7 +17,7 @@ const RandomProductDatails = ({ product }) => {
     _id,
   } = product;
 
-  // fetch(`http://localhost:5000/product/${id}`)
+  // fetch(`https://shuvotech.vercel.app/product/${id}`)
   return (
     <div className="mx-2 md:mx-0">
       <h1 className="mt-5"> Category: {category} </h1>
@@ -75,7 +75,7 @@ RandomProductDatails.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("https://shuvotech.vercel.app/products");
   const products = await res.json();
 
   const paths = products.map((product) => ({
@@ -85,10 +85,10 @@ export const getStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export const getStaticProps = async (context) => {
+export const getStaticProps  = async (context) => {
   const { params } = context;
 
-  const res = await fetch(`http://localhost:5000/product/${params.id}`);
+  const res = await fetch(`https://shuvotech.vercel.app/product/${params.id}`);
   const data = await res.json();
 
   return {

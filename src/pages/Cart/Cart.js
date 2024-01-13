@@ -53,7 +53,7 @@ const Cart = () => {
 
 
            {
-            products.map((product) =>  <div className='flex flex-col md:flex-row justify-between border w-full my-6'>
+            products.map((product, i) =>  <div key={i} className='flex flex-col md:flex-row justify-between border w-full my-6'>
             {/* img */}
              <div className='flex justify-start items-center gap-3 w-full md:w-1/2 border-red-200 border'>
 

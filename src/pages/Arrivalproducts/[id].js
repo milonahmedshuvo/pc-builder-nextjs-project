@@ -1,3 +1,4 @@
+import RootLayout from "@/components/layout/RootLayout";
 import Link from "next/link";
 
 const ArrivalproductsDatails = ({ product }) => {
@@ -52,11 +53,28 @@ const ArrivalproductsDatails = ({ product }) => {
 };
 
 export default ArrivalproductsDatails;
+ArrivalproductsDatails.getLayout = function getLayout (page) {
+  return <RootLayout> {page} </RootLayout>
+}
 
-export const getServerSideProps = async (context) => {
+
+
+
+
+export const getStaticPaths = async () => {
+  const res = await fetch("https://shuvotech.vercel.app/arrivalproducts");
+  const products = await res.json();
+
+  const paths = products.map((product) => ({
+    params: { id: product._id },
+  }));
+
+  return { paths, fallback: false };
+};
+
+export const getStaticProps = async (context) => {
   const { id } = context.params;
-  console.log("front end thke", id);
-  const res = await fetch(`http://localhost:5000/arrivalproducts/${id}`);
+  const res = await fetch(`https://shuvotech.vercel.app/arrivalproducts/${id}`);
   const data = await res.json();
 
   return {

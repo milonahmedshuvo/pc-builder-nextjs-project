@@ -4,6 +4,7 @@ import React from 'react'
 const Randomproduct = ({product}) => {
 const {image, productName, category, price, Status, Rating, discription, _id } =product;
 
+
   return (
     <div className=' px-4  py-10 shadow-sm bg-[#FEFEFE]'>
         
@@ -31,4 +32,5 @@ const {image, productName, category, price, Status, Rating, discription, _id } =
   )
 }
 
-export default Randomproduct
+export default Randomproduct;
+

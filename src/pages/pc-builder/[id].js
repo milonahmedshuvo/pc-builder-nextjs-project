@@ -79,7 +79,7 @@ export const getServerSideProps = async (context) => {
     const { id } = context.params;
     console.log(id)
 
-    const res = await fetch(`http://localhost:5000/categoris/${id}`)
+    const res = await fetch(`https://shuvotech.vercel.app/categoris/${id}`)
     const data = await res.json()
 
     return {
