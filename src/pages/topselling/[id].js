@@ -2,6 +2,7 @@ import RootLayout from "@/components/layout/RootLayout";
 import { addToProduct } from "@/redux/features/cart/cartSlice";
 import Link from "next/link";
 import React from "react";
+import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
 
 const TopsellingDatails = ({ products }) => {
@@ -9,7 +10,10 @@ const TopsellingDatails = ({ products }) => {
   const { images, title, balance, logo, discription } = products;
 
 
-
+  const addtocartbutton = () => {
+    dispatch(addToProduct(products))
+    toast.success('Successfully product add!')
+  }
 
   return (
     <div className="flex flex-col md:flex-row justify-center mt-10 mb-20">
@@ -32,7 +36,7 @@ const TopsellingDatails = ({ products }) => {
         <div className="grid grid-cols-2 gap-1 md:gap-2 mt-10 ">
           
             <button className="bg-[#3197E9] text-white border py-3 px-1   font-semibold text-sm md:text-sm lg:text-md   text-center "
-            onClick={() => dispatch(addToProduct(products))}
+            onClick={() => addtocartbutton() }
              type="button">ADD TO CART</button>
           
 

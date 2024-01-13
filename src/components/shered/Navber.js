@@ -49,9 +49,9 @@ const Navber = () => {
           </div>
         </div>
 
-        {/* <Link href='/Cart/Cart' className="hidden md:block" >
+        <Link href='/Cart/Cart' className="hidden md:block mr-4" >
             <button className="rubik hover:text-[#F26E21]">CART</button>
-        </Link> */}
+        </Link>
 
         {session?.user ? (
           <Link onClick={() => signOut()} href="" className="hidden md:block">
@@ -63,9 +63,7 @@ const Navber = () => {
           </Link>
         )}
 
-        {/* <Link href='/login/login' className="hidden md:block">
-            <button className="rubik hover:text-[#F26E21]">LOGIN</button>
-        </Link> */}
+        
 
         {/* button  */}
         <Link href="/pc-builder/PCBuilder">
