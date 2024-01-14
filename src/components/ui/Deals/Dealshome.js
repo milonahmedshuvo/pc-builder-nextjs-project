@@ -37,7 +37,7 @@ const Dealshome = ( {dealsproducts} ) => {
               {product.title}
             </p>
 
-            <p className="rubik text-[16px] font-semibold text-[#F26E21] text-center mt-10 ">
+            <p className="rubik text-[16px] font-semibold text-[#F26E21] text-center mt-10 ">Tk, 
               {product.tk}
             </p>
 

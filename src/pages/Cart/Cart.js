@@ -127,7 +127,7 @@ const Cart = () => {
 
 
         {/* Total tk and checkout button  */}
-      <p className=' text-end font-medium text-lg md:text-xl text-[#3E3E3E] lato pb-2 md:pb-4 border-b-[1px]  md:border-b-2 border-b-green-400 '>Cart Total:  <span className=' text-xl md:text-2xl font-medium lato'>TK, {totaltk} </span> </p>
+      <p className=' text-end font-medium text-lg md:text-xl text-[#3E3E3E] lato pb-2 md:pb-4 border-b-[1px]  md:border-b-2 border-b-green-400 '>Cart Total:  <span className=' text-xl md:text-2xl font-medium lato'> {totaltk} </span> </p>
 
        <div className='flex flex-col justify-center md:justify-end items-end' >
         <button className=' bg-orange-500 text-white  mt-6 md:mt-10 px-2 py-2 ' > PROCEED TO CHEKOUT </button>
