@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 
 const Cart = () => {
-      const { products } = useSelector((state) => state.cart)      
+      const { products, totaltk } = useSelector((state) => state.cart)      
       console.log("redux", products )
       const dispatch = useDispatch()
   
@@ -22,7 +22,7 @@ const Cart = () => {
     <div className='mt-8 mb-24'>
 
        <div className='flex justify-between items-center'>
-        <p className='text-xl '>My Cart(1)</p>
+        <p className='text-xl '>My Cart({products.length})</p>
             <Link href='/' > 
                 <button type='button' className='text-[#F79637] border border-[#F79637] px-1 rounded text-sm'>Continue shopping</button>
             </Link>
@@ -53,11 +53,11 @@ const Cart = () => {
 
 
            {
-            products.map((product, i) =>  <div key={i} className='flex flex-col md:flex-row justify-between border w-full my-5'>
+            products.map((product, i) =>  <div key={i} className='flex flex-col md:flex-row justify-between border w-full my-2'>
             {/* img */}
              <div className='flex justify-start items-center gap-3 w-full md:w-1/2 border-red-200 border'>
 
-             <div className='border w-1/4 '>
+             <div className='border w-1/5 '>
                <img className='' src={product.images} alt="" />
              </div>
 
@@ -92,7 +92,7 @@ const Cart = () => {
 
 
                   <div>
-                     <p className='text-sm md:text-md lato font-medium mr-4 md:mr-0' >Tk: {product.tk}</p>
+                     <p className='text-sm md:text-md lato font-medium mr-4 md:mr-0' > {product.tk}</p>
                   </div>
 
 
@@ -127,7 +127,7 @@ const Cart = () => {
 
 
         {/* Total tk and checkout button  */}
-      <p className=' text-end font-medium text-lg md:text-xl text-[#3E3E3E] lato pb-2 md:pb-4 border-b-[1px]  md:border-b-2 border-b-green-400 '>Cart Total:  <span className=' text-xl md:text-2xl font-medium lato'> TK, 55555 </span> </p>
+      <p className=' text-end font-medium text-lg md:text-xl text-[#3E3E3E] lato pb-2 md:pb-4 border-b-[1px]  md:border-b-2 border-b-green-400 '>Cart Total:  <span className=' text-xl md:text-2xl font-medium lato'>TK, {totaltk} </span> </p>
 
        <div className='flex flex-col justify-center md:justify-end items-end' >
         <button className=' bg-orange-500 text-white  mt-6 md:mt-10 px-2 py-2 ' > PROCEED TO CHEKOUT </button>

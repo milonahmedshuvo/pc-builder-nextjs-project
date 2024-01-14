@@ -2,7 +2,8 @@ const { createSlice } = require("@reduxjs/toolkit");
 
 const initialState = {
     products : [ ],
-    pcproducts: [ ]
+    pcproducts: [ ],
+    totaltk: 0,
 }
 
 const cartSlice = createSlice({
@@ -16,18 +17,22 @@ const cartSlice = createSlice({
         }else{
             state.products.push( {...action.payload, quantity: 1 } )
         }
-        
+
+
+        state.totaltk =  state.totaltk + parseInt(action.payload.tk)
        },
 
        decreaseProduct: (state, action) => {
         const exsisting = state.products.find((product) => product._id === action.payload._id )
         if(exsisting && exsisting.quantity > 1 ){
             exsisting.quantity = exsisting.quantity - 1
+            state.totaltk = state.totaltk - parseInt(action.payload.tk)
         }  
        },
 
        removeProduct: (state, action ) => {
         state.products = state.products.filter((product) => product._id !== action.payload._id )
+        state.totaltk = state.totaltk - parseInt(action.payload.tk) * action.payload.quantity
        },
 
 
