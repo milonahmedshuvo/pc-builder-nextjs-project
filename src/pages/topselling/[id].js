@@ -15,6 +15,10 @@ const TopsellingDatails = ({ products }) => {
     toast.success('Successfully product add!')
   }
 
+  const checkoutProduct = () => {
+    dispatch(addToProduct(products))
+  }
+
   return (
     <div className="flex flex-col md:flex-row justify-center mt-10 mb-20">
       <div className="w-full md:w-full lg:w-1/4 ">
@@ -43,7 +47,8 @@ const TopsellingDatails = ({ products }) => {
           
 
           <Link
-            href="/"
+            href="/checkout/checkout"
+            onClick={()=> checkoutProduct()}
             className="bg-[#F26E21] text-white border py-3 px-1 font-semibold md:text-sm lg:text-md  text-base text-center "
           >
             <button type="button">Buy now</button>

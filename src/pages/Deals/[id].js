@@ -1,6 +1,7 @@
 import RootLayout from "@/components/layout/RootLayout";
 import { addToProduct } from "@/redux/features/cart/cartSlice";
 import Link from "next/link";
+import { Children } from "react";
 import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
 
@@ -12,6 +13,10 @@ const DealsProductDatails = ( {product} ) => {
     const addtocartButton = () => {
       dispatch(addToProduct(product))
       toast.success("Succesfuly product add!")
+}
+
+const checkoutProduct = () => {
+  dispatch(addToProduct(product))
 }
 
   return (
@@ -47,7 +52,8 @@ const DealsProductDatails = ( {product} ) => {
              type="button">ADD TO CART</button>
 
             <Link
-              href="/"
+              href="/checkout/checkout"
+              onClick={()=> checkoutProduct() }
               className="bg-[#F26E21] text-white border py-3 px-1 font-semibold md:text-sm lg:text-md  text-base text-center "
             >
               <button type="button">Buy now</button>

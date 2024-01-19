@@ -37,8 +37,8 @@ const Checkout = () => {
 
         
       <div className="flex justify-between items-center border-t-2 pt-2 border-red-300">
-        <p>Subtotal: </p>
-        <p>TK, {totaltk} </p>
+        <p className="lato text-[#3E3E3E]">Subtotal: </p>
+        <p className="lato text-[#3E3E3E]">TK, {totaltk} </p>
       </div>
 
 
@@ -46,11 +46,11 @@ const Checkout = () => {
       </div>
 
       <div className="">
-        <p className="font-medium">Shipping information</p>
+        <p className="font-medium lato ">Shipping information</p>
 
         <form action="">
           <div className="mt-1">
-            <p className="text-sm">Name</p>
+            <p className="text-sm lato text-[#3E3E3E]">Name</p>
             <input
               type="text"
               name="name"
@@ -58,7 +58,7 @@ const Checkout = () => {
             />
           </div>
 
-          <p className="mt-5 text-sm">Shipping address</p>
+          <p className="mt-5 text-sm lato text-[#3E3E3E]">Shipping address</p>
           <input
             type="email"
             name="name"
@@ -72,8 +72,8 @@ const Checkout = () => {
             className="border rounded w-full md:w-2/3 md:py-1 "
           />
 
-          <p className="mt-4 text-sm">Payment datails</p>
-          <p className="text-xs mt-2">Cart info</p>
+          <p className="mt-4 text-sm lato text-[#3E3E3E]">Payment datails</p>
+          <p className="text-sm lato text-[#3E3E3E] mt-2">Cart info</p>
           <input
             type="text"
             name="name"

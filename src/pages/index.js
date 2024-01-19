@@ -19,7 +19,7 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
       
   
   return (
-    <div className="">
+    <div className="mx-2">
        <Slider></Slider>
 
        {/* <Randomproducts prodcuts={prodcuts} />
@@ -33,8 +33,8 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
         <Deals dealsproducts={dealsproducts} />
         <Collections />
         <Shop />
-       <Randomproducts prodcuts={prodcuts} />
-       <FeatureCategoris categoris={categoris} />
+       {/* <Randomproducts prodcuts={prodcuts} />
+       <FeatureCategoris categoris={categoris} /> */}
     </div>
   )
 }

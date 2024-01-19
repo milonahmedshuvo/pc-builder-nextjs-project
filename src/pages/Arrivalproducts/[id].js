@@ -12,6 +12,10 @@ const ArrivalproductsDatails = ({ product }) => {
         dispatch(addToProduct(product))
         toast.success("Succesfuly product add!")
   }
+
+  const checkoutProduct = () => {
+    dispatch(addToProduct(product))
+  }
   
   return (
     <div>
@@ -44,7 +48,8 @@ const ArrivalproductsDatails = ({ product }) => {
              type="button">ADD TO CART</button>
 
             <Link
-              href="/"
+              href="/checkout/checkout"
+              onClick={()=> checkoutProduct() }
               className="bg-[#F26E21] text-white border py-3 px-1 font-semibold md:text-sm lg:text-md  text-base text-center "
             >
               <button type="button">Buy now</button>

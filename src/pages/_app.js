@@ -8,11 +8,13 @@ export default function App({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
 
   return (
-    <Provider store={store}>
+   <div className="mx-1 md:mx-2 lg:mx-3">
+     <Provider store={store}>
       <SessionProvider session={pageProps.session}>
         {getLayout(<Component {...pageProps} />)}
         <Toaster />
       </SessionProvider>
     </Provider>
+   </div>
   );
 }
