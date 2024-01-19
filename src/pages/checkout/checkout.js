@@ -1,60 +1,51 @@
+import RootLayout from "@/components/layout/RootLayout";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 
-const checkout = () => {
-     const { products } = useSelector((state) => state.cart)
-     console.log( "checkout", products)
+const Checkout = () => {
+  const { products, totaltk } = useSelector((state) => state.cart);
+  console.log("checkout", products);
   return (
     <div className=" grid grid-cols-1 md:grid-cols-2 gap-14 px-1  md:px-20  my-24">
-      <div className="border border-red-400">
+      <div className="">
+       
 
-        <p>products</p>
+        {products?.map((product, i) => (
+          <div key={i}>
+            <div className="flex justify-between items-center my-4">
 
-          {
-            products?.map((product, i) => <div key={i}> 
-                <p> {product.images} ddddddd</p>
-            </div>)
-          }
+              <div className="flex items-center gap-6 ">
+                <div>
+                  <img
+                    className="w-[90px] h-[60px] "
+                    src={product.images}
+                    alt=""
+                  />
+                </div>
 
-        <div className="flex justify-around items-center">
+                <div className="text-sm">Quantity: {product.quantity} </div>
+              </div>
 
-          <div  className="flex items-center  " >
 
-            <div >
-             <img className="w-[90px] h-[60px] " src="https://images.unsplash.com/photo-1681667958928-856129627dc1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+
+              <div>
+                <p className="text-sm" >TK, {product.tk}</p>
+              </div>
             </div>
-
-            <div> quantity 4</div>
           </div>
+        ))}
 
-           <div>
-            <p>TK, 00</p>
-           </div>
-
-        </div>
-
-
-
-
-       {/* parant  */}
+        
+      <div className="flex justify-between items-center border-t-2 pt-2 border-red-300">
+        <p>Subtotal: </p>
+        <p>TK, {totaltk} </p>
       </div>
 
 
+        {/* parant  */}
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div className="border border-green-300">
+      <div className="">
         <p className="font-medium">Shipping information</p>
 
         <form action="">
@@ -108,4 +99,7 @@ const checkout = () => {
   );
 };
 
-export default checkout;
+export default Checkout;
+Checkout.getLayout = function getLayout (page) {
+    return <RootLayout> {page} </RootLayout>
+}
