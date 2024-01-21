@@ -25,11 +25,11 @@ const Navber = () => {
       <div className="flex justify-between items-center">
         {/* dropdown manu  */}
 
-        <Link href="/Allproducts/Allproducts" className="hidden md:block">
+        <Link href="/Allproducts/Allproducts" className=" ml-1">
           <button className="rubik hover:text-[#F26E21]">PRODUCTS</button>
         </Link>
 
-        <div className="right-manu  relative mx-2 md:mx-6 hover:text-[#F26E21]">
+        <div className="right-manu hidden md:block  relative mx-2 md:mx-6 hover:text-[#F26E21]">
           <button type="button" className="manu-btn hover:text-[#F26E21] rubik">
             CATEGORY
           </button>
@@ -49,7 +49,7 @@ const Navber = () => {
           </div>
         </div>
 
-        <Link href='/Cart/Cart' className="hidden md:block mr-4" >
+        <Link href='/Cart/Cart' className="mx-2" >
             <button className="rubik hover:text-[#F26E21]">CART</button>
         </Link>
 

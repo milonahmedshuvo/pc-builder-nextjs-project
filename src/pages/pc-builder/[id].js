@@ -7,7 +7,6 @@ import { useDispatch } from "react-redux";
 
 const ThreeProductPage = ({products}) => {
 const { prodcuts } = products;
-console.log(prodcuts)
 const dispatch = useDispatch()
 
 
@@ -75,7 +74,32 @@ ThreeProductPage.getLayout = function getLayout (page) {
 }
 
 
-export const getServerSideProps = async (context) => {
+
+
+// export const getStaticPaths =async () => {
+//     const res = await fetch("https://shuvotech.vercel.app/categoris")
+//     const data = await res.json()
+
+//     const paths = data.map((product) => ({
+//       params: {id: product._id}
+//     }))
+
+//     return { paths, fallback: true }
+// }
+
+
+export const getStaticPaths = async () => {
+  const res = await fetch("https://shuvotech.vercel.app/categoris");
+  const products = await res.json();
+
+  const paths = products.map((product) => ({
+    params: { id: product._id },
+  }));
+
+  return { paths, fallback: false };
+};
+
+export const getStaticProps = async (context) => {
     const { id } = context.params;
     console.log(id)
 

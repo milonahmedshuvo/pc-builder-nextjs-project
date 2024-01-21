@@ -4,11 +4,10 @@ import toast from "react-hot-toast";
 import { useSelector } from "react-redux";
 
 const PCBuilderPage = ({ categoriImage }) => {
-  console.log(categoriImage);
   // const {images, name, products} = categoriImage;
   const {  pcproducts } = useSelector((state) => state.cart)
 
-  console.log("pc", pcproducts)
+
 
   
   
@@ -145,7 +144,7 @@ PCBuilderPage.getLayout = function getLayout(page) {
 };
 
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const res = await fetch("https://shuvotech.vercel.app/categoris");
   const data = await res.json();
 
