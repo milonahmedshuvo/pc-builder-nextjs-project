@@ -7,7 +7,7 @@ const Dealshome = ( {dealsproducts} ) => {
     
   return (
     <div>
-        <div className="mt-28 mb-10">
+        <div className="mt-16 mb-10">
       
       <div className="hover:shadow-xl duration-150">
         <img

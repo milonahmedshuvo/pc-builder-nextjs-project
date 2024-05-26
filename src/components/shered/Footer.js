@@ -1,16 +1,20 @@
 import Image from 'next/image'
 import React from 'react'
+import techlogo from "../../image/Tech.png"
+
+
 
 const Footer = () => {
 
 
   return (
    <div>
-     <div className='grid grid-cols-1 md:grid-cols-2 pb-10 py-10 border-t-2'>
+     <div className='grid grid-cols-1 md:grid-cols-2 pb-10 py-10 border-t-2 px-2 '>
 
 <div className=' w-full md:w-3/4'>
   <Image
-      src="https://www.ryanscomputers.com/assets/images/ryans-logo.svg"
+      className='w-full md:w-1/4'
+      src={techlogo}
       width={100}
       height={500}
       alt="Picture of the author"

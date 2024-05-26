@@ -27,10 +27,12 @@ const HomePage = ({prodcuts, categoris, topselling, speakerImg, arrivalproducts,
        
         <TopSelling topselling={topselling} />
         <Speakerhome speakerImg={speakerImg} />
-        <Offerproducts />
         <Arrivalhome arrivalproducts={arrivalproducts} />
+        
         <Belkin />
         <Deals dealsproducts={dealsproducts} />
+        <Offerproducts />
+        
         <Collections />
         <Shop />
        {/* <Randomproducts prodcuts={prodcuts} />
